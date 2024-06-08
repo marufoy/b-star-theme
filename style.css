@@ -1,0 +1,111 @@
+:root {
+  --font-color: #ffffff;
+  /* フォントカラー */
+  --bg-color: #000000;
+  /* 背景色 */
+  --nomal-font: "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  /* メニューフォント */
+  --title-font: "Times New Roman", Times, serif;
+
+}
+
+body {
+  font-size: 16px;
+  color: var(--font-color);
+  /* フォントカラーを使用 */
+  background-color: var(--bg-color);
+  /* 背景色を使用 */
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 70px;
+  padding: 0 7%;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+
+  .logo {
+    height: 100%;
+  }
+
+  nav ul {
+    display: flex;
+
+    li {
+      padding: 0 18px;
+      font-family: var(--menu-font);
+    }
+  }
+}
+
+
+.overlay-text {
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  /* 絶対的な位置 */
+  top: 28%;
+  /* 上から50%の位置 */
+  left: 5%;
+  /* 左から50%の位置 */
+  color: #000000;
+  /* テキストの色 */
+  z-index: 1;
+  /* 動画の下に配置 */
+  font-size: clamp(1rem, 5vw, 4.5rem);
+  /* フォントサイズの動的調整 */
+  text-shadow: 1px 1px 5px;
+}
+
+.overlay-text h1:nth-child(2) {
+  /* スタイル指定 */
+  font-size: var(--font-size);
+  color: #ffffff;
+  transform: translate(50px, 20px);
+}
+
+.video-background {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  /* ビデオがコンテナを超えないようにする */
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.container {
+  padding: 0 7%;
+}
+
+#Context {
+  margin-top: 100px;
+  h2 {
+    font-family: var(--title-font);
+    font-size: 4rem;
+  }
+
+  .text{
+    max-width: 950px;
+    p{
+      font-family: var(--nomal-font);
+      font-weight: 500;
+      margin-top: 30px;
+      font-size: 1.3rem;
+    }
+  }
+}
