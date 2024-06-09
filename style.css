@@ -92,7 +92,16 @@ header {
   height: auto;
   transform: translate(-50%, -50%);
   z-index: -1;
+
+  transition: opacity 0.5s ease;
+  opacity: 1; /* 初期状態 */
+  
 }
+
+.video-background video.hide {
+  opacity: 0; /* 非表示状態 */
+}
+
 .blur-background {
   filter: blur(30px); /* 背景にブラーをかける */
   -webkit-filter: blur(30px); /* Safari用 */
@@ -128,8 +137,8 @@ header {
   -webkit-backdrop-filter: blur(10px); /* Safari用 */
 }
 
-.sample{
-  height: 700pc;
+#About-us{
+  border: 1px solid red;
+  height: 1100px;
   width: 100%;
-  background-color: #fff;
 }
