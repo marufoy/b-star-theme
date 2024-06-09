@@ -74,10 +74,16 @@ header {
   width: 100vw;
   overflow: hidden;
   /* ビデオがコンテナを超えないようにする */
+
+   /* トランジションを追加 */
+   transition: opacity 0.5s ease;
+   opacity: 1; /* 初期状態 */
+ 
 }
 
+
 .video-background video {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -86,6 +92,13 @@ header {
   height: auto;
   transform: translate(-50%, -50%);
   z-index: -1;
+}
+.blur-background {
+  filter: blur(30px); /* 背景にブラーをかける */
+  -webkit-filter: blur(30px); /* Safari用 */
+  backdrop-filter: blur(30px); /* 背景にもブラーをかける */
+  -webkit-backdrop-filter: blur(30px); /* Safari用 */
+  transition: filter 0.3s ease; 
 }
 
 .container {
@@ -100,12 +113,23 @@ header {
   }
 
   .text{
-    max-width: 950px;
+    max-width: 650px;
     p{
       font-family: var(--nomal-font);
-      font-weight: 500;
-      margin-top: 30px;
-      font-size: 1.3rem;
+      font-weight: bold;
+      margin-top: 60px;
+      font-size: 1.7rem;
     }
   }
+}
+
+.blur-background {
+  backdrop-filter: blur(30px); /* 背景にブラーをかける */
+  -webkit-backdrop-filter: blur(10px); /* Safari用 */
+}
+
+.sample{
+  height: 700pc;
+  width: 100%;
+  background-color: #fff;
 }
