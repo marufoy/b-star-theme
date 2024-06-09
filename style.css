@@ -7,6 +7,7 @@
   /* メニューフォント */
   --title-font: "Times New Roman", Times, serif;
 
+  --section-font: "Didot", serif;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
   background-color: var(--bg-color);
   /* 背景色を使用 */
 }
+
 
 
 header {
@@ -75,10 +77,11 @@ header {
   overflow: hidden;
   /* ビデオがコンテナを超えないようにする */
 
-   /* トランジションを追加 */
-   transition: opacity 0.5s ease;
-   opacity: 1; /* 初期状態 */
- 
+  /* トランジションを追加 */
+  transition: opacity 0.5s ease;
+  opacity: 1;
+  /* 初期状態 */
+
 }
 
 
@@ -93,11 +96,13 @@ header {
   transform: translate(-50%, -50%);
   z-index: -1;
   transition: opacity 0.5s ease;
-  opacity: 1; /* 初期状態 */
+  opacity: 1;
+  /* 初期状態 */
 }
 
 .video-background video.hide {
-  opacity: 0; /* 非表示状態 */
+  opacity: 0;
+  /* 非表示状態 */
 }
 
 
@@ -105,6 +110,7 @@ header {
   from {
     filter: blur(0px);
   }
+
   to {
     filter: blur(30px);
   }
@@ -120,15 +126,16 @@ header {
 }
 
 #Context {
-  margin-top: 100px;
+
   h2 {
     font-family: var(--title-font);
     font-size: 4rem;
   }
 
-  .text{
+  .text {
     max-width: 650px;
-    p{
+
+    p {
       font-family: var(--nomal-font);
       font-weight: bold;
       margin-top: 60px;
@@ -138,8 +145,101 @@ header {
 }
 
 
-#About-us{
-  border: 1px solid red;
+#About-us {
+  margin-top: 100px;
   height: 1100px;
   width: 100%;
+}
+
+.section-name {
+
+  p:nth-child(2) {
+    line-height: 0.2;
+  }
+
+  display: flex;
+  align-items: center;
+}
+
+.en-title {
+  font-family: var(--section-font);
+  font-style: italic;
+  font-size: 1.3rem;
+
+}
+
+.jp-title {
+  font-family: var(--title-font);
+}
+
+.title-decoration {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  span {
+    width: 1px;
+    height: 100%;
+    background-color: #ffffff;
+    display: block;
+  }
+
+  width: 13px;
+  height: 42px;
+}
+
+.contents {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  width: 100%;
+
+  .text-content {
+    padding-left: 70px;
+    border: 1px solid lime;
+    height: 500px;
+    flex: 1 1 50%;
+
+    .text-title {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      align-items: center;
+
+      h3 {
+        font-family: var(--title-font);
+        position: absolute;
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 3.5rem;
+      }
+    }
+
+    .text {
+      border: 1px solid pink;
+      margin-top: 20px;
+
+      h4 {
+        font-family: var(--section-font);
+        font-weight: 400;
+        font-size: 2.4rem;
+      }
+      p{
+        margin-top: 20px;
+        font-family: var(--nomal-font);
+        font-weight: bolder;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .image-content {
+    border: 1px solid red;
+    height: 500px;
+    flex: 1 1 50%;
+  }
 }

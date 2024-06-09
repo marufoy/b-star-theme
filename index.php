@@ -43,8 +43,57 @@
         </section>
 
         <section id="About-us">
-           
-            <div><h1>helklo</h1></div>
+
+            <div class="section-name">
+                <div class="title-text">
+                    <p class="en-title">ABOUT US</p>
+                    <p class="jp-title">私たちについて</p>
+                </div>
+                <div class="title-decoration">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="contents">
+                <div class="content" id="mission">
+                    <div class="text-content">
+                        <div class="text-title">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellow.png" alt="">
+                            <h3>MISSION</h3>
+                        </div>
+                        <div class="text">
+                            <h4>企業の発展を促進しビジョンの実現に貢献する</h4>
+                            <p>日本中の誰もが生き生きと「幸せ」な世界の実現<br>
+                                そのために日本経済の中核を担う中小企業の縁の下の力持ちとなり、企業のビジョンを実現します</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="image-content">
+                        <picture>
+                            <source media="(min-width: 768px)"
+                                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
+                                type="image/svg+xml">
+                            <source media="(max-width: 767px)"
+                                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
+                                type="image/svg+xml">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
+                                alt="<?php bloginfo('name'); ?>" type="image/png">
+                        </picture>
+                    </div>
+                </div>
+                <div class="content" id="vision">
+                    <div class="text-content"></div>
+                    <div class="image-content"></div>
+                </div>
+                <div class="content" id="value">
+                    <div class="text-content"></div>
+                    <div class="image-content"></div>
+                </div>
+            </div>
 
         </section>
 
