@@ -92,23 +92,28 @@ header {
   height: auto;
   transform: translate(-50%, -50%);
   z-index: -1;
-
   transition: opacity 0.5s ease;
   opacity: 1; /* 初期状態 */
-  
 }
 
 .video-background video.hide {
   opacity: 0; /* 非表示状態 */
 }
 
-.blur-background {
-  filter: blur(30px); /* 背景にブラーをかける */
-  -webkit-filter: blur(30px); /* Safari用 */
-  backdrop-filter: blur(30px); /* 背景にもブラーをかける */
-  -webkit-backdrop-filter: blur(30px); /* Safari用 */
-  transition: filter 0.3s ease; 
+
+@keyframes blurAnimation {
+  from {
+    filter: blur(0px);
+  }
+  to {
+    filter: blur(30px);
+  }
 }
+
+.blur-background {
+  animation: blurAnimation 1s ease forwards;
+}
+
 
 .container {
   padding: 0 7%;
@@ -132,10 +137,6 @@ header {
   }
 }
 
-.blur-background {
-  backdrop-filter: blur(30px); /* 背景にブラーをかける */
-  -webkit-backdrop-filter: blur(10px); /* Safari用 */
-}
 
 #About-us{
   border: 1px solid red;
