@@ -43,7 +43,6 @@
         </section>
 
         <section id="About-us">
-
             <div class="section-name">
                 <div class="title-text">
                     <p class="en-title">ABOUT US</p>
@@ -58,6 +57,7 @@
 
             <div class="contents">
                 <div class="content" id="mission">
+
                     <div class="text-content">
                         <div class="text-title">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellow.png" alt="">
@@ -69,8 +69,6 @@
                                 そのために日本経済の中核を担う中小企業の縁の下の力持ちとなり、企業のビジョンを実現します</p>
                         </div>
                     </div>
-
-
 
                     <div class="image-content">
                         <picture>
@@ -86,17 +84,89 @@
                     </div>
                 </div>
                 <div class="content" id="vision">
-                    <div class="text-content"></div>
-                    <div class="image-content"></div>
+
+                    <div class="text-content">
+                        <div class="text-title">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellow.png" alt="">
+                            <h3>VISION</h3>
+                        </div>
+                        <div class="text">
+                            <h4>会社の「創造する未来」を共に築く</h4>
+                            <p>日本中の誰もが生き生きと「幸せ」な世界の実現<br>
+                                そのために日本経済の中核を担う中小企業の縁の下の力持ちとなり、企業のビジョンを実現します</p>
+                        </div>
+                    </div>
+                    <div class="image-content">
+                        <picture>
+                            <source media="(min-width: 768px)"
+                                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
+                                type="image/svg+xml">
+                            <source media="(max-width: 767px)"
+                                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
+                                type="image/svg+xml">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
+                                alt="<?php bloginfo('name'); ?>" type="image/png">
+                        </picture>
+                    </div>
                 </div>
                 <div class="content" id="value">
-                    <div class="text-content"></div>
-                    <div class="image-content"></div>
+                    <div class="text-content">
+                        <div class="text-title">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellow.png" alt="">
+                            <h3>VALUE</h3>
+                        </div>
+                        <div class="text">
+                            <h4>企業の数だけ「幸せ」がある</h4>
+                            <p>日本中の誰もが生き生きと「幸せ」な世界の実現<br>
+                                そのために日本経済の中核を担う中小企業の縁の下の力持ちとなり、企業のビジョンを実現します</p>
+                        </div>
+                    </div>
+                    <div class="image-content">
+                        <picture>
+                            <source media="(min-width: 768px)"
+                                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
+                                type="image/svg+xml">
+                            <source media="(max-width: 767px)"
+                                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
+                                type="image/svg+xml">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
+                                alt="<?php bloginfo('name'); ?>" type="image/png">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cycle">
+            <div class="text-content">
+                <div class="title-text">
+                    <h3>私たちが目指す</h3>
+                    <h3>理想の循環</h3>
+                </div>
+                <div class="subtext">
+                    <p>私たちは企業がvisionを実現することが日本中が生き生きと「幸せ」な世界を実現することに繋がると考えます。<br>
+                        <br>
+                        企業と従業員が共通のvisionの実現に向けて並走し、企業が幸せになれば、従業員も幸せになります。<br>
+                        結果的に好循環を生み出すことができます。
+                    </p>
                 </div>
             </div>
 
-        </section>
+            <div class="image-content">
+                <picture>
+                    <source media="(min-width: 768px)"
+                        srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png"
+                        type="image/svg+xml">
+                    <source media="(max-width: 767px)"
+                        srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png"
+                        type="image/svg+xml">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png"
+                        alt="<?php bloginfo('name'); ?>" type="image/png">
+                </picture>
+            </div>
 
+
+        </section>
     </div>
 </main>
 

@@ -147,7 +147,6 @@ header {
 
 #About-us {
   margin-top: 100px;
-  height: 1100px;
   width: 100%;
 }
 
@@ -190,16 +189,24 @@ header {
 }
 
 .contents {
+  width: 100%;
+
   .content {
     display: flex;
+    flex: 1 0 auto;
     flex-wrap: wrap;
+    margin-top: 200px;
   }
 
-  width: 100%;
+  .content:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+
+
 
   .text-content {
     padding-left: 70px;
-    border: 1px solid lime;
+    /* border: 1px solid lime; */
     height: 500px;
     flex: 1 1 50%;
 
@@ -220,7 +227,7 @@ header {
     }
 
     .text {
-      border: 1px solid pink;
+      /* border: 1px solid pink; */
       margin-top: 20px;
 
       h4 {
@@ -228,7 +235,8 @@ header {
         font-weight: 400;
         font-size: 2.4rem;
       }
-      p{
+
+      p {
         margin-top: 20px;
         font-family: var(--nomal-font);
         font-weight: bolder;
@@ -238,8 +246,41 @@ header {
   }
 
   .image-content {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 500px;
     flex: 1 1 50%;
   }
+}
+
+#cycle {
+  margin-top: 200px;
+  display: flex;
+
+  .text-content {
+    background-image: url();
+    border: lime solid 1px;
+    flex: 1 1 50%;
+    .title-text {
+      h3 {
+        font-family: var(--title-font);
+        font-size: 4rem;
+        line-height: 1.3;
+      }
+     
+    }
+
+    .subtext {
+      margin-top: 50px;
+      font-family: var(--nomal-font);
+      font-weight: bolder;
+      font-size: 2rem;
+      max-width: 500px;
+    }
+  }
+
+  .image-content{
+    flex: 1 1 50%;
+    border: red solid 1px;
+      }
+      
 }
