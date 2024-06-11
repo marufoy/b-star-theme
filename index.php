@@ -194,26 +194,120 @@
                         <div class="number" id="01">
                             01.
                         </div>
+                        <div class="content">
+                            <div class="text-content">
+                                <div class="title-text">
+                                    <h3>もっと「知りたい」と思わせる</h3>
+                                    <h3>心に届くUI設計とデザイン</h3>
+                                </div>
 
-                        <div class="title-text">
-                            <h3>もっと「知りたい」と思わせる</h3>
-                            <h3>心に届くUI設計とデザイン</h3>
-                        </div>
+                                <div class="text">
+                                    <div class="issue">
+                                        <ul>
+                                            <li>
+                                                <h4>よくある課題</h4>
+                                            </li>
+                                            <li>アクセス数が少ない</li>
+                                            <li>かっこいいデザインにしたい</li>
+                                            <li>使い勝手が悪い、</li>
+                                            <li>スマートフォンに対応したHPが欲しい</li>
+                                            <li>採用活動におけるミスマッチ</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
 
-                        <div class="text">
-                            <div class="issue">
-                                <ul>
-                                    <li>アクセス数が少ない</li>
-                                    <li>かっこいいデザインにしたい</li>
-                                    <li>使い勝手が悪い、</li>
-                                    <li>スマートフォンに対応したHPが欲しい</li>
-                                    <li>採用活動におけるミスマッチ</li>
-                                </ul>
+                            <div class="image-content">
+                                <picture>
+                                    <source media="(min-width: 768px)"
+                                        srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
+                                        type="image/svg+xml">
+                                    <source media="(max-width: 767px)"
+                                        srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
+                                        type="image/svg+xml">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
+                                        alt="<?php bloginfo('name'); ?>" type="image/png">
+                                </picture>
+                                <button class="contact-button">
+                                    資料請求
+                                </button>
                             </div>
                         </div>
+                        <div class="solution">
+                            <ul>
+                                <li>
+                                    <h4>解決策</h4>
+                                </li>
+                                <li>コンテンツの最適化を図りアクセス数増加</li>
+                                <li>企業理念や社風を落とし込んだデザイン</li>
+                                <li>CMSを使うことで実装後も手軽に情報更新ができる仕様</li>
+                                <li>縦画面に最適化したデザインで使いやすいサイトへ</li>
+                            </ul>
+                        </div>
+                        <p>UI設計、デザイン制作、映像制作など、それぞれ組み合わせ効果的な訴求ができる<br>
+                            企業サイトや採用サイトを作成します。</p>
+
+
                     </div>
                     <div>
-                        <p>タブ-B-です。</p>
+                        <div>
+                            <div class="number" id="02">
+                                02.
+                            </div>
+                            <div class="content">
+                                <div class="text-content">
+                                    <div class="title-text">
+                                        <h3>圧倒的に印象に残る動画で</h3>
+                                    </div>
+
+                                    <div class="text">
+                                        <div class="issue">
+                                            <ul>
+                                                <li>
+                                                    <h4>よくある課題</h4>
+                                                </li>
+                                                <li>SNSアカウントは立ち上げたが投稿が止まっている</li>
+                                                <li>SNS運用をしていきたいが動画制作ノウハウがない</li>
+                                                <li>会社紹介など動画を作ってみたいが何からはじめていいのかわからない</li>
+                                                <li>動画がどのように活用できるのかわからない</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="image-content">
+                                    <picture>
+                                        <source media="(min-width: 768px)"
+                                            srcset="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg"
+                                            type="image/svg+xml">
+                                        <source media="(max-width: 767px)"
+                                            srcset="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg"
+                                            type="image/svg+xml">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg"
+                                            alt="<?php bloginfo('name'); ?>" type="image/png">
+                                    </picture>
+                                    <button class="contact-button">
+                                        資料請求
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="solution">
+                                <ul>
+                                    <li>
+                                        <h4>解決策</h4>
+                                    </li>
+                                    <li>企画から撮影までの運用サポートによりフォロワー数増加</li>
+                                    <li>解決したい課題を徹底的にヒアリングし効果的なクリエイティブ創出</li>
+                                    <li>ブランドやサービスの認知拡大やブランディング</li>
+                                    <li>顧客とのエンゲージメントを高める</li>
+                                    <li>バイラル効果を狙いより多くの潜在顧客層にリーチ</li>
+                                </ul>
+                            </div>
+                            <p>動画の企画から構成、SNSなどの投稿に適した縦型動画から横型動画まで最適な方法で<br>
+                                効果的なアプローチを実現します。</p>
+
+
+                        </div>
                     </div>
                 </div>
             </div>
