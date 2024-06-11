@@ -21,7 +21,11 @@ jQuery(document).ready(function ($) {
             $('.video-background video').css('transition', 'opacity 0.5s').css('opacity', '1');
         }
     });
+
+
+    tabify( '#tabs' );
     
 });
+
 
 

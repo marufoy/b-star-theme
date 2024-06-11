@@ -144,6 +144,9 @@
                     <h3>理想の循環</h3>
                 </div>
                 <div class="subtext">
+                    <div class="image-background">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/cycle.gif" alt="">
+                    </div>
                     <p>私たちは企業がvisionを実現することが日本中が生き生きと「幸せ」な世界を実現することに繋がると考えます。<br>
                         <br>
                         企業と従業員が共通のvisionの実現に向けて並走し、企業が幸せになれば、従業員も幸せになります。<br>
@@ -167,7 +170,61 @@
 
 
         </section>
+
+        <section id="service">
+            <div class="section-name">
+                <div class="title-text">
+                    <p class="en-title">SERVICE</p>
+                    <p class="jp-title">サービス紹介</p>
+                </div>
+                <div class="title-decoration">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="tab-area">
+                <div id="tabs">
+                    <ul>
+                        <li>Web制作</li>
+                        <li>動画制作</li>
+                    </ul>
+                    <div>
+                        <div class="number" id="01">
+                            01.
+                        </div>
+
+                        <div class="title-text">
+                            <h3>もっと「知りたい」と思わせる</h3>
+                            <h3>心に届くUI設計とデザイン</h3>
+                        </div>
+
+                        <div class="text">
+                            <div class="issue">
+                                <ul>
+                                    <li>アクセス数が少ない</li>
+                                    <li>かっこいいデザインにしたい</li>
+                                    <li>使い勝手が悪い、</li>
+                                    <li>スマートフォンに対応したHPが欲しい</li>
+                                    <li>採用活動におけるミスマッチ</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>タブ-B-です。</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
     </div>
+
+
+
+
 </main>
 
 <?php get_footer(); ?>
