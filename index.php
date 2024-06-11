@@ -197,8 +197,10 @@
                         <div class="content">
                             <div class="text-content">
                                 <div class="title-text">
-                                    <h3>もっと「知りたい」と思わせる</h3>
-                                    <h3>心に届くUI設計とデザイン</h3>
+                                    <div class="title">
+                                        <h3>もっと「知りたい」と思わせる</h3>
+                                        <h3>心に届くUI設計とデザイン</h3>
+                                    </div>
                                 </div>
 
                                 <div class="text">
