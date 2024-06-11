@@ -330,8 +330,89 @@
                     </div>
                 </div>
             </div>
+        </section>
 
+        <section id="result">
+            <div class="section-name">
+                <div class="title-text">
+                    <p class="en-title">RESULT</p>
+                    <p class="jp-title">得られる効果</p>
+                </div>
+                <div class="title-decoration">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
 
+            <div class="cards">
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        ブランディング
+                    </div>
+                    <div class="card-text">
+                        ブランドを構築し、自社の経営理念に共感したお客様を獲得
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        ブランディング
+                    </div>
+                    <div class="card-text">
+                        ブランドを構築し、自社の経営理念に共感したお客様を獲得
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        ブランディング
+                    </div>
+                    <div class="card-text">
+                        ブランドを構築し、自社の経営理念に共感したお客様を獲得
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        ブランディング
+                    </div>
+                    <div class="card-text">
+                        ブランドを構築し、自社の経営理念に共感したお客様を獲得
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        ブランディング
+                    </div>
+                    <div class="card-text">
+                        ブランドを構築し、自社の経営理念に共感したお客様を獲得
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        ブランディング
+                    </div>
+                    <div class="card-text">
+                        ブランドを構築し、自社の経営理念に共感したお客様を獲得
+                    </div>
+                </div>
+            </div>
         </section>
 
 

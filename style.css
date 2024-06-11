@@ -331,11 +331,7 @@ header {
         }
       }
 
-      .tabs-nav li:hover {
-        background-color: #d87e7e;
-        border: 1px solid #999;
-        border-bottom: none;
-      }
+      
 
       .tabs-panel {
         width: 100%;
@@ -453,4 +449,32 @@ header {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#result{
+  .cards{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px; 
+    .card{
+      font-family: var(--nomal-font);
+      display: flex;
+      flex: 0 0 30%;
+      padding: 50px;
+      margin-bottom: 100px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      max-width:400px;
+      color: black;
+      background-color: white;
+    }
+
+    .card-title{
+      font-size: 1.5rem;
+
+    }
+  }
+}
 
