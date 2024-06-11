@@ -174,8 +174,8 @@
         <section id="service">
             <div class="section-name">
                 <div class="title-text">
-                    <p class="en-title">SERVICE</p>
-                    <p class="jp-title">サービス紹介</p>
+                    <p class="en-title">ABOUT US</p>
+                    <p class="jp-title">私たちについて</p>
                 </div>
                 <div class="title-decoration">
                     <span></span>
@@ -243,9 +243,9 @@
                                 <li>CMSを使うことで実装後も手軽に情報更新ができる仕様</li>
                                 <li>縦画面に最適化したデザインで使いやすいサイトへ</li>
                             </ul>
+                            <p>UI設計、デザイン制作、映像制作など、それぞれ組み合わせ効果的な訴求ができる<br>
+                                企業サイトや採用サイトを作成します。</p>
                         </div>
-                        <p>UI設計、デザイン制作、映像制作など、それぞれ組み合わせ効果的な訴求ができる<br>
-                            企業サイトや採用サイトを作成します。</p>
 
 
                     </div>
@@ -256,7 +256,7 @@
                             </div>
                             <div class="content">
                                 <div class="text-content">
-                                    <div class="title-text">
+                                    <div class="title">
                                         <h3>圧倒的に印象に残る動画で</h3>
                                     </div>
 
@@ -302,11 +302,30 @@
                                     <li>顧客とのエンゲージメントを高める</li>
                                     <li>バイラル効果を狙いより多くの潜在顧客層にリーチ</li>
                                 </ul>
+                                <p>動画の企画から構成、SNSなどの投稿に適した縦型動画から横型動画まで最適な方法で<br>
+                                    効果的なアプローチを実現します。</p>
                             </div>
-                            <p>動画の企画から構成、SNSなどの投稿に適した縦型動画から横型動画まで最適な方法で<br>
-                                効果的なアプローチを実現します。</p>
 
 
+
+                            <div class="slider">
+                                <div>
+                                    <div class="video-container">
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/bjmBJ1Fl0cs?si=N_5aMAp5EJYwb86P"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="video-container">
+                                    <iframe width="560" height="315"
+                                        src="https://www.youtube.com/embed/WppP7RqXRRk?si=dlJx_H5o4O8qDSFX"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -314,6 +333,8 @@
 
 
         </section>
+
+
     </div>
 
 

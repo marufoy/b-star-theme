@@ -5,13 +5,13 @@ jQuery(document).ready(function ($) {
         var section = $('#Context');
         var sectionPosition = section.offset().top;
         var sectionHeight = section.outerHeight();
-    
+
         if (scrollPosition + windowHeight / 2 >= sectionPosition && scrollPosition + windowHeight / 2 <= sectionPosition + sectionHeight) {
             $('.video-background video').addClass('blur-background');
         } else {
             $('.video-background video').removeClass('blur-background');
         }
-    
+
         var nextSection = section.next();
         var nextSectionPosition = nextSection.offset().top;
         var distanceFromTopToHideVideo = 600;
@@ -23,8 +23,14 @@ jQuery(document).ready(function ($) {
     });
 
 
-    tabify( '#tabs' );
-    
+    tabify('#tabs');
+
+    jQuery('.slider').slick({
+        autoplay: false,
+        infinite: true,
+        dots: true
+    });
+
 });
 
 
