@@ -457,6 +457,9 @@ header {
     justify-content: space-between;
     gap: 30px; 
     .card{
+      i{
+        font-size: 4rem;
+      }
       font-family: var(--nomal-font);
       display: flex;
       flex: 0 0 30%;
@@ -472,8 +475,15 @@ header {
     }
 
     .card-title{
+      font-weight: bold;
+      margin-top: 20px;
       font-size: 1.5rem;
-
+    }
+    
+    .card-text{
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: rgb(0, 0, 0);
     }
   }
 }

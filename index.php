@@ -72,14 +72,9 @@
 
                     <div class="image-content">
                         <picture>
-                            <source media="(min-width: 768px)"
-                                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
-                                type="image/svg+xml">
-                            <source media="(max-width: 767px)"
-                                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
-                                type="image/svg+xml">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
-                                alt="<?php bloginfo('name'); ?>" type="image/png">
+                            <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
+                            <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" alt="<?php bloginfo('name'); ?>" type="image/png">
                         </picture>
                     </div>
                 </div>
@@ -98,14 +93,9 @@
                     </div>
                     <div class="image-content">
                         <picture>
-                            <source media="(min-width: 768px)"
-                                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
-                                type="image/svg+xml">
-                            <source media="(max-width: 767px)"
-                                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
-                                type="image/svg+xml">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
-                                alt="<?php bloginfo('name'); ?>" type="image/png">
+                            <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
+                            <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" alt="<?php bloginfo('name'); ?>" type="image/png">
                         </picture>
                     </div>
                 </div>
@@ -123,14 +113,9 @@
                     </div>
                     <div class="image-content">
                         <picture>
-                            <source media="(min-width: 768px)"
-                                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
-                                type="image/svg+xml">
-                            <source media="(max-width: 767px)"
-                                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
-                                type="image/svg+xml">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
-                                alt="<?php bloginfo('name'); ?>" type="image/png">
+                            <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
+                            <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" alt="<?php bloginfo('name'); ?>" type="image/png">
                         </picture>
                     </div>
                 </div>
@@ -157,14 +142,9 @@
 
             <div class="image-content">
                 <picture>
-                    <source media="(min-width: 768px)"
-                        srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png"
-                        type="image/svg+xml">
-                    <source media="(max-width: 767px)"
-                        srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png"
-                        type="image/svg+xml">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png"
-                        alt="<?php bloginfo('name'); ?>" type="image/png">
+                    <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" alt="<?php bloginfo('name'); ?>" type="image/png">
                 </picture>
             </div>
 
@@ -221,14 +201,9 @@
 
                             <div class="image-content">
                                 <picture>
-                                    <source media="(min-width: 768px)"
-                                        srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
-                                        type="image/svg+xml">
-                                    <source media="(max-width: 767px)"
-                                        srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
-                                        type="image/svg+xml">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg"
-                                        alt="<?php bloginfo('name'); ?>" type="image/png">
+                                    <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
+                                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" alt="<?php bloginfo('name'); ?>" type="image/png">
                                 </picture>
                                 <button class="contact-button">
                                     資料請求
@@ -279,14 +254,9 @@
 
                                 <div class="image-content">
                                     <picture>
-                                        <source media="(min-width: 768px)"
-                                            srcset="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg"
-                                            type="image/svg+xml">
-                                        <source media="(max-width: 767px)"
-                                            srcset="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg"
-                                            type="image/svg+xml">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg"
-                                            alt="<?php bloginfo('name'); ?>" type="image/png">
+                                        <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg" type="image/svg+xml">
+                                        <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg" type="image/svg+xml">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg" alt="<?php bloginfo('name'); ?>" type="image/png">
                                     </picture>
                                     <button class="contact-button">
                                         資料請求
@@ -313,19 +283,11 @@
                             <div class="slider">
                                 <div>
                                     <div class="video-container">
-                                        <iframe width="560" height="315"
-                                            src="https://www.youtube.com/embed/bjmBJ1Fl0cs?si=N_5aMAp5EJYwb86P"
-                                            title="YouTube video player" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bjmBJ1Fl0cs?si=N_5aMAp5EJYwb86P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                     </div>
                                 </div>
                                 <div class="video-container">
-                                    <iframe width="560" height="315"
-                                        src="https://www.youtube.com/embed/WppP7RqXRRk?si=dlJx_H5o4O8qDSFX"
-                                        title="YouTube video player" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WppP7RqXRRk?si=dlJx_H5o4O8qDSFX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -350,7 +312,7 @@
             <div class="cards">
                 <div class="card">
                     <div class="card-icon">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="">
+                        <i class="fa-solid fa-gear"></i>
                     </div>
                     <div class="card-title">
                         ブランディング
@@ -361,57 +323,60 @@
                 </div>
                 <div class="card">
                     <div class="card-icon">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="">
+                        <i class="fa-solid fa-laptop"></i>
                     </div>
                     <div class="card-title">
-                        ブランディング
+                        WEBサイトの強化
                     </div>
                     <div class="card-text">
-                        ブランドを構築し、自社の経営理念に共感したお客様を獲得
+                        SEOなどの対策を行うことで、ニーズに合わせたWebサイトを構築し、集客力をアップ
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-icon">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="">
+                        <i class="fa-solid fa-user-check"></i>
                     </div>
                     <div class="card-title">
-                        ブランディング
+                        優良顧客の獲得
                     </div>
                     <div class="card-text">
-                        ブランドを構築し、自社の経営理念に共感したお客様を獲得
+                        効果的なデザインでWebサイトを構築、ターゲットとする顧客層へのアプローチを強める
+
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-icon">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
                     </div>
                     <div class="card-title">
-                        ブランディング
+                        採用力アップ
                     </div>
                     <div class="card-text">
-                        ブランドを構築し、自社の経営理念に共感したお客様を獲得
+                        採用要件に合致する方へリーチさせ
+                        一緒に働きたいと心躍るサイトを作り採用力アップ
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-icon">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="">
+                    <i class="fa-solid fa-globe"></i>
                     </div>
                     <div class="card-title">
-                        ブランディング
+                        効果的な情報発信
                     </div>
                     <div class="card-text">
-                        ブランドを構築し、自社の経営理念に共感したお客様を獲得
+                        動画を使うことでダイナミックに情報を伝え、写真や文字だけでは伝えられない情報を視覚化
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-icon">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="">
+                    <i class="fa-solid fa-chart-pie"></i>
                     </div>
                     <div class="card-title">
-                        ブランディング
+                        コスト削減
                     </div>
                     <div class="card-text">
-                        ブランドを構築し、自社の経営理念に共感したお客様を獲得
+                        効果的なHPや動画の制作により
+                        採用や広告費用の削減
                     </div>
                 </div>
             </div>
@@ -419,9 +384,6 @@
 
 
     </div>
-
-
-
 
 </main>
 
