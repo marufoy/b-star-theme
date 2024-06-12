@@ -346,7 +346,7 @@
                 </div>
                 <div class="card">
                     <div class="card-icon">
-                    <i class="fa-solid fa-arrow-trend-up"></i>
+                        <i class="fa-solid fa-arrow-trend-up"></i>
                     </div>
                     <div class="card-title">
                         採用力アップ
@@ -358,7 +358,7 @@
                 </div>
                 <div class="card">
                     <div class="card-icon">
-                    <i class="fa-solid fa-globe"></i>
+                        <i class="fa-solid fa-globe"></i>
                     </div>
                     <div class="card-title">
                         効果的な情報発信
@@ -369,7 +369,7 @@
                 </div>
                 <div class="card">
                     <div class="card-icon">
-                    <i class="fa-solid fa-chart-pie"></i>
+                        <i class="fa-solid fa-chart-pie"></i>
                     </div>
                     <div class="card-title">
                         コスト削減
@@ -379,6 +379,84 @@
                         採用や広告費用の削減
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section id="flow">
+            <div class="section-name">
+                <div class="title-text">
+                    <p class="en-title">FLOW</p>
+                    <p class="jp-title">進行の流れ</p>
+                </div>
+                <div class="title-decoration">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="check-mark"><i class="fa-regular fa-circle-check"></i></div>
+                    <div class="card-icon">
+                        <i class="fa-regular fa-comment"></i>
+                    </div>
+                    <div class="card-title">
+                        要件定義
+                    </div>
+                    <div class="card-text">
+                        web制作や動画制作の目的や
+                        ゴールの設定
+                        必要な機能要件を定義し解決策をご提案します
+                    </div>
+                </div>
+                <div class="triangle">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="card">
+                    <div class="check-mark"><i class="fa-regular fa-circle-check"></i></div>
+                    <div class="card-icon">
+                        <i class="fa-solid fa-ear-listen"></i>
+                    </div>
+                    <div class="card-title">
+                        ヒアリング
+                    </div>
+                    <div class="card-text">
+                        お客様の課題や目的を
+                        ヒアリング、スケジュール、
+                        概算費用をおまとめします
+                    </div>
+                </div>
+                <div class="triangle">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="card">
+                    <div class="check-mark"><i class="fa-regular fa-circle-check"></i></div>
+                    <div class="card-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="card-title">
+                        開発・クリエイティブ
+                    </div>
+                    <div class="card-text">
+                        モックアップ制作・動画の撮影・作成し完成イメージを確認し詳細をすり合わせて調整していきます
+                    </div>
+                </div>
+                <div class="triangle">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="card">
+                    <div class="check-mark"><i class="fa-regular fa-circle-check"></i></div>
+                    <div class="card-icon">
+                        <i class="fa-solid fa-box"></i>
+                    </div>
+                    <div class="card-title">
+                        納品
+                    </div>
+                    <div class="card-text">
+                        システム保守など運用をサポートします
+                    </div>
+                </div>
+
             </div>
         </section>
 
