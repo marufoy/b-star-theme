@@ -21,8 +21,13 @@ Template Name: contact
         </div>
 
         <div>
-            <?php echo do_shortcode('[mwform_formkey key="10"]'); ?>
+            <?php if (have_posts()) : ?>
+                <?php while (have_posts()) : the_post(); ?>
+                    <?php the_content(); ?>
+                <?php endwhile; ?>
+            <?php endif; ?>
         </div>
+
     </section>
 </main>
 
