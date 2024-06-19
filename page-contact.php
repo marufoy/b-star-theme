@@ -20,12 +20,26 @@ Template Name: contact
             </div>
         </div>
 
-        <div>
-            <?php if (have_posts()) : ?>
-                <?php while (have_posts()) : the_post(); ?>
-                    <?php the_content(); ?>
-                <?php endwhile; ?>
-            <?php endif; ?>
+        <div class="content">
+            <div class="text-area">
+                <div class="contact-logo">
+                    B-STAR
+                </div>
+
+                <div class="message">
+                    仕事のご依頼やご相談の方は必要情報を入力して<br>
+                    お気軽にお問い合わせください。
+                </div>
+            </div>
+            
+            <div class="form-area">
+                <?php if (have_posts()) : ?>
+                    <?php while (have_posts()) : the_post(); ?>
+                        <?php the_content(); ?>
+                    <?php endwhile; ?>
+                <?php endif; ?>
+            </div>
+            
         </div>
 
     </section>
