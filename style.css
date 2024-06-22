@@ -296,7 +296,7 @@ header {
 }
 
 #service {
-  margin-top: 100px;
+  padding-top: 100px;
 
   .tab-area {
 
@@ -315,6 +315,8 @@ header {
         border: none;
 
         li {
+          font-family: var(--nomal-font);
+          font-weight: bold;
           display: inline-block;
           font-size: 2rem;
           margin: 0 0 0 100px;
@@ -551,7 +553,7 @@ header {
   background-image: url("./assets/images/camera-sample.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px;
+  padding: 100px 7%;
 
   .content {
     /* display: flex; */

@@ -28,7 +28,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="<?php echo esc_url(home_url('/about')); ?>">ABOUT</a></li>
+                <li><a href="<?php echo esc_url(home_url('/')); ?>">ABOUT</a></li>
                 <li><a href="<?php echo esc_url(home_url('/service')); ?>">SERVICE</a></li>
                 <li><a href="<?php echo esc_url(home_url('/contact')); ?>">CONACT</a></li>
             </ul>
