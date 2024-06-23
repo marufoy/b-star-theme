@@ -16,10 +16,9 @@
 
             <nav>
                 <ul>
-                    <li><a href="/">TOP</a></li>
                     <li><a href="/">ABOUT US</a></li>
-                    <li><a href="/">SERVICE</a></li>
-                    <li><a href="/">CONTACT</a></li>
+                    <li><a href="/service">SERVICE</a></li>
+                    <li><a href="/contact">CONTACT</a></li>
                 </ul>
             </nav>
         </div>

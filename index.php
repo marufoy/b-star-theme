@@ -26,9 +26,9 @@ Template Name: top
     <div class="container">
 
         <section id="Context">
-            <h2>最高にカッコいい大人たちの集団へ</h2>
+            <h2 id="vision-statement">最高にカッコいい大人たちの集団へ</h2>
 
-            <div class="text">
+            <div class="text" id="top-text">
                 <p>つまらなそうに過ごす大人たちを仕事を通じて生き生きと「幸せ」な世界を実現したい<br>
                     そんなvisionを掲げている。<br>
                 </p>

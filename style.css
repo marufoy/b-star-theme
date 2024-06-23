@@ -864,7 +864,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  font-size: 0.7rem;
   .container {
     width: 50%;
     padding: 0;
@@ -877,7 +877,7 @@ footer {
   }
 
   .footer-overview{
-    font-size: 1.2rem;
+    font-size: 1.2em;
 
   }
   .footer-nav {
@@ -901,6 +901,7 @@ footer {
   }
   #copy{
     float: right;
+    font-size: 0.7em;
   }
 
 }

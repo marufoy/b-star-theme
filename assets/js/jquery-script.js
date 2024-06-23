@@ -31,6 +31,41 @@ jQuery(document).ready(function ($) {
         dots: true
     });
 
+
+    // topの文字をアニメーション
+    ScrollReveal().reveal('#vision-statement', { 
+        duration: 3000,
+        origin: "left",
+        distance: "50px",
+        reset: true,
+        mobile:false,
+      });
+
+    ScrollReveal().reveal('#top-text',{
+        delay:1000,
+        diration:1000,
+    });
+
+    // contentsの要素を表示する
+    ScrollReveal().reveal('#mission', {
+        duration: 2000,
+        origin: "left",
+        distance: "50px",
+        mobile:false,
+    });
+    ScrollReveal().reveal('#vision', {
+        duration: 2000,
+        origin: "right",
+        distance: "50px",
+        mobile:false,
+    });
+    ScrollReveal().reveal('#value', {
+        duration: 2000,
+        origin: "left",
+        distance: "50px",
+        mobile:false,
+    });
+
 });
 
 

@@ -52,6 +52,14 @@ function add_custom_scripts()
     true
   );
 
+  wp_enqueue_script(
+    'scroll-script',
+    get_template_directory_uri() . '/assets/js/scrollreveal.min.js',
+    array('jquery'),
+    '1.0.0',
+    true
+  );
+
   // カスタムスクリプトを追加
   wp_enqueue_script(
     'jquery-script',
