@@ -42,8 +42,8 @@ jQuery(document).ready(function ($) {
       });
 
     ScrollReveal().reveal('#top-text',{
-        delay:1000,
-        diration:1000,
+        delay:800,
+        duration:2000,
     });
 
     // contentsの要素を表示する
@@ -65,6 +65,14 @@ jQuery(document).ready(function ($) {
         distance: "50px",
         mobile:false,
     });
+    ScrollReveal().reveal('.title-decoration', {
+        duration: 2000,
+        origin: "right",
+        distance: "500px",
+        mobile:false,
+    });
+
+
 
 });
 

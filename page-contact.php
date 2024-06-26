@@ -15,8 +15,6 @@ Template Name: contact
             </div>
             <div class="title-decoration">
                 <span></span>
-                <span></span>
-                <span></span>
             </div>
         </div>
 

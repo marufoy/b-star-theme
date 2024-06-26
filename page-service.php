@@ -19,8 +19,6 @@ Template Name: service
                 </div>
                 <div class="title-decoration">
                     <span></span>
-                    <span></span>
-                    <span></span>
                 </div>
             </div>
 
@@ -71,17 +69,8 @@ Template Name: service
                             </div>
                         </div>
                         <div class="solution">
-                            <ul>
-                                <li>
-                                    <h4>解決策</h4>
-                                </li>
-                                <li>コンテンツの最適化を図りアクセス数増加</li>
-                                <li>企業理念や社風を落とし込んだデザイン</li>
-                                <li>CMSを使うことで実装後も手軽に情報更新ができる仕様</li>
-                                <li>縦画面に最適化したデザインで使いやすいサイトへ</li>
-                            </ul>
-                            <p>UI設計、デザイン制作、映像制作など、それぞれ組み合わせ効果的な訴求ができる<br>
-                                企業サイトや採用サイトを作成します。</p>
+                            <p>UI設計、デザイン制作、映像制作など、それぞれ組み合わせ抱える課題を解決いたします。<br>
+                            企業サイトや採用サイトなどのweb制作はお任せください。</p>
                         </div>
 
 
@@ -124,18 +113,8 @@ Template Name: service
                                 </div>
                             </div>
                             <div class="solution">
-                                <ul>
-                                    <li>
-                                        <h4>解決策</h4>
-                                    </li>
-                                    <li>企画から撮影までの運用サポートによりフォロワー数増加</li>
-                                    <li>解決したい課題を徹底的にヒアリングし効果的なクリエイティブ創出</li>
-                                    <li>ブランドやサービスの認知拡大やブランディング</li>
-                                    <li>顧客とのエンゲージメントを高める</li>
-                                    <li>バイラル効果を狙いより多くの潜在顧客層にリーチ</li>
-                                </ul>
-                                <p>動画の企画から構成、SNSなどの投稿に適した縦型動画から横型動画まで最適な方法で<br>
-                                    効果的なアプローチを実現します。</p>
+                                <p>動画の企画から構成、SNSなどの投稿に適した縦型動画から横型動画まで最適な方法で
+                                効果的なアプローチを実現します。</p>
                             </div>
 
 
@@ -163,8 +142,6 @@ Template Name: service
                     <p class="jp-title">得られる効果</p>
                 </div>
                 <div class="title-decoration">
-                    <span></span>
-                    <span></span>
                     <span></span>
                 </div>
             </div>
@@ -249,8 +226,6 @@ Template Name: service
                     <p class="jp-title">進行の流れ</p>
                 </div>
                 <div class="title-decoration">
-                    <span></span>
-                    <span></span>
                     <span></span>
                 </div>
             </div>
