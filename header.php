@@ -21,14 +21,14 @@
                 </picture>
             </a>
         </div>
-        <div class="menu-icon active">
+        <div class="menu-icon">
             <span></span>
             <span></span>
             <span></span>
         </div>
 
 
-        <nav class="nav-menu active">
+        <nav class="nav-menu">
             <ul>
                 <a href="<?php echo esc_url(home_url('/')); ?>">
                     <li>ABOUT</li>
