@@ -26,7 +26,10 @@
                 </picture>
             </a>
         </div>
-        <nav>
+        <div class="menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+        <nav class="nav-menu">
             <ul>
                 <li><a href="<?php echo esc_url(home_url('/')); ?>">ABOUT</a></li>
                 <li><a href="<?php echo esc_url(home_url('/service')); ?>">SERVICE</a></li>
