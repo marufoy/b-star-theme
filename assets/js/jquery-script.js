@@ -33,17 +33,17 @@ jQuery(document).ready(function ($) {
 
 
     // topの文字をアニメーション
-    ScrollReveal().reveal('#vision-statement', { 
+    ScrollReveal().reveal('#vision-statement', {
         duration: 3000,
         origin: "left",
         distance: "50px",
         reset: true,
-        mobile:false,
-      });
+        mobile: false,
+    });
 
-    ScrollReveal().reveal('#top-text',{
-        delay:800,
-        duration:2000,
+    ScrollReveal().reveal('#top-text', {
+        delay: 800,
+        duration: 2000,
     });
 
     // contentsの要素を表示する
@@ -51,29 +51,32 @@ jQuery(document).ready(function ($) {
         duration: 2000,
         origin: "left",
         distance: "50px",
-        mobile:false,
+        mobile: false,
     });
     ScrollReveal().reveal('#vision', {
         duration: 2000,
         origin: "right",
         distance: "50px",
-        mobile:false,
+        mobile: false,
     });
     ScrollReveal().reveal('#value', {
         duration: 2000,
         origin: "left",
         distance: "50px",
-        mobile:false,
+        mobile: false,
     });
     ScrollReveal().reveal('.title-decoration', {
         duration: 2000,
         origin: "right",
         distance: "500px",
-        mobile:false,
+        mobile: false,
     });
 
 
-
+    // toggle menu
+    $('.menu-icon').on('click', function () {
+        $('.nav-menu').toggleClass('active');
+    });
 });
 
 

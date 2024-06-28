@@ -29,11 +29,11 @@
         <div class="menu-icon">
             <i class="fa fa-bars"></i>
         </div>
-        <nav class="nav-menu">
+        <nav class="nav-menu active">
             <ul>
-                <li><a href="<?php echo esc_url(home_url('/')); ?>">ABOUT</a></li>
-                <li><a href="<?php echo esc_url(home_url('/service')); ?>">SERVICE</a></li>
-                <li><a href="<?php echo esc_url(home_url('/contact')); ?>">CONACT</a></li>
+            <a href="<?php echo esc_url(home_url('/')); ?>"><li>ABOUT</li></a>
+            <a href="<?php echo esc_url(home_url('/service')); ?>"><li>SERVICE</li></a>
+            <a href="<?php echo esc_url(home_url('/contact')); ?>"><li>CONACT</li></a>
             </ul>
         </nav>
     </header>
