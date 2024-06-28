@@ -77,6 +77,10 @@ jQuery(document).ready(function ($) {
     $('.menu-icon').on('click', function () {
         $('.nav-menu').toggleClass('active');
     });
+    // toggle menu-icon
+    $('.menu-icon').on('click', function () {
+        $('.menu-icon').toggleClass('active');
+    });
 });
 
 

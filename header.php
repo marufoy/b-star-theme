@@ -15,25 +15,30 @@
         <div class="logo">
             <a href="<?php echo esc_url(home_url('/')); ?>">
                 <picture>
-                    <source media="(min-width: 768px)"
-                        srcset="<?php echo get_template_directory_uri(); ?>/assets/images/pc-logo.svg"
-                        type="image/svg+xml">
-                    <source media="(max-width: 767px)"
-                        srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sp-logo.svg"
-                        type="image/svg+xml">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pc-logo.svg"
-                        alt="<?php bloginfo('name'); ?>" type="image/png">
+                    <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/pc-logo.svg" type="image/svg+xml">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sp-logo.svg" type="image/svg+xml">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pc-logo.svg" alt="<?php bloginfo('name'); ?>" type="image/png">
                 </picture>
             </a>
         </div>
-        <div class="menu-icon">
-            <i class="fa fa-bars"></i>
+        <div class="menu-icon active">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
+
+
         <nav class="nav-menu active">
             <ul>
-            <a href="<?php echo esc_url(home_url('/')); ?>"><li>ABOUT</li></a>
-            <a href="<?php echo esc_url(home_url('/service')); ?>"><li>SERVICE</li></a>
-            <a href="<?php echo esc_url(home_url('/contact')); ?>"><li>CONACT</li></a>
+                <a href="<?php echo esc_url(home_url('/')); ?>">
+                    <li>ABOUT</li>
+                </a>
+                <a href="<?php echo esc_url(home_url('/service')); ?>">
+                    <li>SERVICE</li>
+                </a>
+                <a href="<?php echo esc_url(home_url('/contact')); ?>">
+                    <li>CONACT</li>
+                </a>
             </ul>
         </nav>
     </header>
