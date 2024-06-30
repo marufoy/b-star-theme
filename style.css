@@ -770,6 +770,10 @@ header {
 
 
 #result {
+
+  @media (max-width:1024px) {
+    margin-bottom: 100px;
+  }
   .cards {
     margin-top: 100px;
     display: flex;
@@ -779,21 +783,24 @@ header {
 
     @media (max-width: 1024px) {
       gap: 10px;
-      justify-content: baseline;
+      justify-content: center;
     }
 
     .card {
       transition: all 0.2s;
-
       &:hover {
         transform: scale(1.1);
+
+        @media (max-width:1024px) {
+          transform: none;
+        }
       }
 
       i {
         font-size: 4rem;
 
         @media (max-width: 1024px) {
-          font-size: 1rem;
+          font-size: 3rem;
         }
       }
 
@@ -813,9 +820,17 @@ header {
       @media (max-width: 1024px) {
         padding: 10px;
         margin-bottom: 0;
-        max-width: 100%;
-        flex: 0 0 50%;
+        max-width: calc(50% - 10px); /* カードが2つ並ぶように設定 */
+        flex: 0 0 calc(50% - 10px); /* カードが2つ並ぶように設定 */
+        display: flex;
+      /* flex-direction: column; */
       }
+    }
+
+    
+    .card-icon{
+      /* border: 1px solid lime; */
+
     }
 
     .card-title {
@@ -824,7 +839,7 @@ header {
       font-size: 1.5rem;
 
       @media (max-width: 1024px) {
-        font-size: 1rem;
+        font-size: 0.8rem;
       }
     }
 
@@ -834,11 +849,12 @@ header {
       color: rgb(0, 0, 0);
 
       @media (max-width: 1024px) {
-        font-size: 1rem;
+        font-size: 0.8rem;
       }
     }
   }
 }
+
 
 
 #flow {
@@ -894,6 +910,10 @@ header {
 
     .triangle i {
       color: white;
+
+      @media (max-width:1024px) {
+        transform: rotate(90deg);
+      }
     }
   }
 }
