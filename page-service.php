@@ -14,8 +14,8 @@ Template Name: service
         <section id="service">
             <div class="section-name">
                 <div class="title-text">
-                    <p class="en-title">ABOUT US</p>
-                    <p class="jp-title">私たちについて</p>
+                    <p class="en-title">SERVICE</p>
+                    <p class="jp-title">サービス紹介</p>
                 </div>
                 <div class="title-decoration">
                     <span></span>
@@ -70,7 +70,7 @@ Template Name: service
                         </div>
                         <div class="solution">
                             <p>UI設計、デザイン制作、映像制作など、それぞれ組み合わせ抱える課題を解決いたします。<br>
-                            企業サイトや採用サイトなどのweb制作はお任せください。</p>
+                                企業サイトや採用サイトなどのweb制作はお任せください。</p>
                         </div>
 
 
@@ -114,7 +114,7 @@ Template Name: service
                             </div>
                             <div class="solution">
                                 <p>動画の企画から構成、SNSなどの投稿に適した縦型動画から横型動画まで最適な方法で
-                                効果的なアプローチを実現します。</p>
+                                    効果的なアプローチを実現します。</p>
                             </div>
 
 
@@ -133,6 +133,100 @@ Template Name: service
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="service-sp">
+            <div class="section-name">
+                <div class="title-text">
+                    <p class="en-title">SERVICE</p>
+                    <p class="jp-title">サービス紹介</p>
+                </div>
+                <div class="title-decoration">
+                    <span></span>
+                </div>
+            </div>
+
+            <div id="web">
+                <div id="web-title" class="service-title">
+                    <h2>もっと「知りたい」と思わせる心に届くUI設計とデザイン</h2>
+                </div>
+
+                <div class="text-area">
+                    <div class="text-title">
+                        <span class="number">01.</span>
+                        <h3>WEB制作</h3>
+                    </div>
+                    <div class="text">
+                        <p>よくある課題</p>
+                        <ul>
+                            <li>アクセス数が少ない</li>
+                            <li>かっこいいデザインにしたい</li>
+                            <li>使い勝手が悪く情報更新がしにくい</li>
+                            <li>採用活動におけるミスマッチ</li>
+                        </ul>
+                    </div>
+
+                    <div class="solution">
+                        <p>
+                            UI設計、デザイン制作、映像制作など、それぞれ組み合わせ抱える課題を解決いたします。
+                            企業サイトや採用サイトなどのweb制作はお任せください。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="movie">
+                <div id="movie-title" class="service-title">
+                    <h2>もっと「知りたい」と思わせる心に届くUI設計とデザイン</h2>
+                </div>
+
+                <div class="text-area">
+                    <div class="text-title">
+                        <span class="number">02.</span>
+                        <h3>動画制作</h3>
+                    </div>
+                    <div class="text">
+                        <p>よくある課題</p>
+                        <ul>
+                            <li>SNSアカウントは立ち上げたが投稿が止まっている</li>
+                            <li>SNS運用をしていきたいが動画制作ノウハウがない</li>
+                            <li>会社紹介など動画を作ってみたいが何からはじめていいのかわからない</li>
+                            <li>動画がどのように活用できるのかわからない</li>
+                            <li>サービスの認知拡大やブランディングをしていきたいが効果がでていない</li>
+                        </ul>
+                    </div>
+
+                    <div class="solution">
+                        <p>
+                            動画の企画から構成、SNSなどの投稿に適した縦型動画から横型動画まで最適な方法で
+                            効果的なアプローチを実現します。
+
+                        </p>
+                    </div>
+
+                    <div class="achievements">
+                        <h3>参考動画</h3>
+
+                        <div class="slider">
+                            <div class="slider-img">
+                            <iframe src="https://www.youtube.com/embed/fNSbb-Fjhd8?si=pvPSjpHcJthtn6pi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="slider-img">
+                            <iframe  src="https://www.youtube.com/embed/pdSllNwtDDI?si=NPaoxdKaOOz9s3Wa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="slider-img">
+                            <iframe  src="https://www.youtube.com/embed/VdvgbdaYNVM?si=0n7uB0_fyuqnod4T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
         </section>
 
         <section id="result">

@@ -28,8 +28,20 @@ jQuery(document).ready(function ($) {
     jQuery('.slider').slick({
         autoplay: false,
         infinite: true,
-        dots: true
+        dots: true,
+        slidesToShow: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    dots: true,
+                    arrows:true,
+                    swipe:true,
+                }
+            }
+        ],
     });
+
 
 
     // topの文字をアニメーション
