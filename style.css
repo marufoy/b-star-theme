@@ -1103,20 +1103,34 @@ footer {
   align-items: center;
   font-size: 0.7rem;
 
+
+
   .container {
     width: 50%;
     padding: 0;
+
+    @media (max-width: 1024px) {
+      width: 100%;
+      padding: 5px;
+    }
   }
 
 
   .footer-logo {
     width: 10%;
     height: 10%;
+
+    @media (max-width: 1024px) {
+      width: 100px;
+    }
   }
 
   .footer-overview {
     font-size: 1.2em;
 
+    @media (max-width: 1024px) {
+      display: none;
+    }
   }
 
   .footer-nav {
@@ -1125,10 +1139,34 @@ footer {
     justify-content: space-between;
     padding: 0 50px;
 
+    @media (max-width: 1024px) {
+      padding: 0;
+      width: 100%;
+      display: block;
+    }
+
     nav ul {
       display: flex;
       gap: 50px;
       justify-content: space-between;
+
+
+      @media (max-width: 1024px) {
+        display: block;
+        text-align: center;
+        width: 100%;
+        gap: 0;
+      }
+
+      @media (max-width: 1024px) {
+        li {
+          border: 1px solid rgb(255, 255, 255);
+          display: block;
+          padding: 20px;
+          font-size: 1rem;
+        }
+      }
+
     }
   }
 
@@ -1137,6 +1175,10 @@ footer {
     padding: 0 50px;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width:1024px){
+      flex-direction: column;
+    }
   }
 
   #copy {
