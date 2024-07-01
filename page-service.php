@@ -260,7 +260,7 @@ Template Name: service
                         WEBサイトの強化
                     </div>
                     <div class="card-text">
-                        SEOなどの対策を行うことで、ニーズに合わせたWebサイトを構築し、集客力をアップ
+                        ニーズに合わせたWebサイトを構築し、集客力をアップ
                     </div>
                 </div>
                 <div class="card">
@@ -271,7 +271,7 @@ Template Name: service
                         優良顧客の獲得
                     </div>
                     <div class="card-text">
-                        効果的なデザインでWebサイトを構築、ターゲットとする顧客層へのアプローチを強める
+                        効果的なデザインでWebサイトを構築、ターゲットへのアプローチを強める
 
                     </div>
                 </div>
@@ -295,7 +295,7 @@ Template Name: service
                         効果的な情報発信
                     </div>
                     <div class="card-text">
-                        動画を使うことでダイナミックに情報を伝え、写真や文字だけでは伝えられない情報を視覚化
+                        映像を使用し、文字だけでは伝えられない情報を視覚化
                     </div>
                 </div>
                 <div class="card">
@@ -307,7 +307,7 @@ Template Name: service
                     </div>
                     <div class="card-text">
                         効果的なHPや動画の制作により
-                        採用や広告費用の削減
+                        採用活動や広告における費用の削減
                     </div>
                 </div>
             </div>

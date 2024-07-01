@@ -700,6 +700,10 @@ header {
 }
 
 #service-sp {
+  padding-top: 100px;
+  @media (min-width:1025px) {
+    display: none;
+  }
 
   #web-title {
     background-color: #458cde;
@@ -800,7 +804,7 @@ header {
         font-size: 4rem;
 
         @media (max-width: 1024px) {
-          font-size: 3rem;
+          font-size: 2rem;
         }
       }
 
@@ -818,19 +822,13 @@ header {
       background-color: white;
 
       @media (max-width: 1024px) {
-        padding: 10px;
+        padding: 20px;
         margin-bottom: 0;
         max-width: calc(50% - 10px); /* カードが2つ並ぶように設定 */
         flex: 0 0 calc(50% - 10px); /* カードが2つ並ぶように設定 */
         display: flex;
       /* flex-direction: column; */
       }
-    }
-
-    
-    .card-icon{
-      /* border: 1px solid lime; */
-
     }
 
     .card-title {
@@ -872,6 +870,8 @@ header {
 
     .card {
       position: relative;
+
+ 
 
       i {
         font-size: 4rem;
@@ -946,6 +946,10 @@ header {
         white-space: nowrap;
         opacity: 0.7;
         z-index: 0;
+
+        @media (max-width:1024px) {
+          display: none;
+        }
       }
 
       .message {
@@ -963,6 +967,10 @@ header {
     padding: 50px 0;
     margin-top: 50px;
     backdrop-filter: blur(12px);
+
+    @media (max-width:1024px) {
+      padding: 10px;
+    }
   }
 
   .mw-wp-form__list {
@@ -985,7 +993,10 @@ header {
   .mw-wp-form dt {
     width: 320px;
     padding: 30px;
-    /* border: orange 1px solid; */
+
+    @media (max-width:1024px) {
+      padding: 10px 0px;
+    }
   }
 
   .mw-wp-form dd {
@@ -993,7 +1004,10 @@ header {
     flex-wrap: wrap;
     align-items: center;
     width: 660px;
-    /* border: rgb(0, 8, 255) 1px solid; */
+
+    @media (max-width:1024px) {
+      align-items: start;
+    }
   }
 
   .mw-wp-form__label {
@@ -1022,6 +1036,11 @@ header {
     padding: 15px 20px;
     background: #F5F5F5;
     color: #000000;
+
+    @media (max-width:1024px) {
+      width: 95%;
+    }
+
   }
 
   input[type="radio"] {
@@ -1180,8 +1199,15 @@ header {
     }
 
   }
-
-}
+  }
+    #select-option{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      span{
+        margin-left: 0;
+      }
+    }
 
 .mw-wp-form__buttons {
   display: flex;
