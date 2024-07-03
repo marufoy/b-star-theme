@@ -59,8 +59,8 @@ Template Name: service
 
                             <div class="image-content">
                                 <picture>
-                                    <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
-                                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
+                                    <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
+                                    <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" alt="<?php bloginfo('name'); ?>" type="image/png">
                                 </picture>
                                 <button class="contact-button">
@@ -103,8 +103,8 @@ Template Name: service
 
                                 <div class="image-content">
                                     <picture>
-                                        <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg" type="image/svg+xml">
-                                        <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg" type="image/svg+xml">
+                                        <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg" type="image/svg+xml">
+                                        <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg" type="image/svg+xml">
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg" alt="<?php bloginfo('name'); ?>" type="image/png">
                                     </picture>
                                     <button class="contact-button">

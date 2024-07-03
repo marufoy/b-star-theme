@@ -1373,3 +1373,49 @@ footer {
   }
 
 }
+
+#privacy-policy{
+  background-image: url("./assets/images/privacy-policy-bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+ 
+
+  .contents-area{
+    padding: 50px;
+    margin-top: 50px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(12px);
+
+    h1{
+      font-family: var(--nomal-font);
+      font-size: 2rem;
+      font-weight: bold;
+
+      &:not(:first-child){
+        margin-top: 30px;
+      }
+    }
+    h2{
+      font-size: 1.2rem;
+      font-family: var(--nomal-font);
+      display: block;
+      border-bottom: 2px solid #fff;
+      max-width: 300px;
+
+      &:not(:first-child){
+        margin-top: 20px;
+      }
+    }
+
+    p{
+      margin-top: 20px;
+      font-family: var(--nomal-font);
+      font-size: 1rem;
+    }
+  }
+}

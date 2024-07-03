@@ -15,9 +15,9 @@
         <div class="logo">
             <a href="<?php echo esc_url(home_url('/')); ?>">
                 <picture>
-                    <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/pc-logo.svg" type="image/svg+xml">
-                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sp-logo.svg" type="image/svg+xml">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pc-logo.svg" alt="<?php bloginfo('name'); ?>" type="image/png">
+                    <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" type="image/svg+xml">
+                    <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sp-logo.svg" type="image/svg+xml">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="<?php bloginfo('name'); ?>" type="image/svg+xml">
                 </picture>
             </a>
         </div>
