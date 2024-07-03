@@ -111,7 +111,7 @@ header {
       display: none;
       flex-direction: column;
       position: absolute;
-      top: 60px;
+      top: 70px;
       /* ヘッダーの高さに合わせて調整 */
       left: 0;
       width: 100%;
@@ -701,6 +701,7 @@ header {
 
 #service-sp {
   padding-top: 100px;
+
   @media (min-width:1025px) {
     display: none;
   }
@@ -755,17 +756,18 @@ header {
       margin-bottom: 50px;
     }
   }
-  
-  .achievements{
+
+  .achievements {
     margin-bottom: 100px;
-    h3{
+
+    h3 {
       font-size: 1.5rem;
       display: block;
       text-align: center;
     }
   }
 
-  iflame{
+  iflame {
     object-fit: cover;
   }
 }
@@ -778,6 +780,7 @@ header {
   @media (max-width:1024px) {
     margin-bottom: 100px;
   }
+
   .cards {
     margin-top: 100px;
     display: flex;
@@ -792,6 +795,7 @@ header {
 
     .card {
       transition: all 0.2s;
+
       &:hover {
         transform: scale(1.1);
 
@@ -824,10 +828,12 @@ header {
       @media (max-width: 1024px) {
         padding: 20px;
         margin-bottom: 0;
-        max-width: calc(50% - 10px); /* カードが2つ並ぶように設定 */
-        flex: 0 0 calc(50% - 10px); /* カードが2つ並ぶように設定 */
+        max-width: calc(50% - 10px);
+        /* カードが2つ並ぶように設定 */
+        flex: 0 0 calc(50% - 10px);
+        /* カードが2つ並ぶように設定 */
         display: flex;
-      /* flex-direction: column; */
+        /* flex-direction: column; */
       }
     }
 
@@ -871,7 +877,7 @@ header {
     .card {
       position: relative;
 
- 
+
 
       i {
         font-size: 4rem;
@@ -970,6 +976,7 @@ header {
 
     @media (max-width:1024px) {
       padding: 10px;
+      padding-bottom: 50px;
     }
   }
 
@@ -1199,15 +1206,19 @@ header {
     }
 
   }
-  }
-    #select-option{
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      span{
-        margin-left: 0;
-      }
+}
+
+@media (max-width: 1024px) {
+  #select-option {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    span {
+      margin-left: 0;
     }
+  }
+}
 
 .mw-wp-form__buttons {
   display: flex;
@@ -1249,7 +1260,23 @@ header {
     font-family: var(--nomal-font);
     font-size: 1.5rem;
     padding-bottom: 20px;
+
+    @media (max-width: 1024px) {
+      font-size: 1rem;
+    }
   }
+
+  @media (max-width: 1024px) {
+    height: 400px;
+    padding: 20px;
+  }
+}
+
+.mw_wp_form .error {
+	font-size : 93%;
+	color : #eeff00;
+	display : block;
+  margin-left: 10px;
 }
 
 footer {
