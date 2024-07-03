@@ -209,15 +209,15 @@ Template Name: service
 
                         <div class="slider">
                             <div class="slider-img">
-                            <iframe src="https://www.youtube.com/embed/fNSbb-Fjhd8?si=pvPSjpHcJthtn6pi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/fNSbb-Fjhd8?si=pvPSjpHcJthtn6pi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                             <div class="slider-img">
-                            <iframe  src="https://www.youtube.com/embed/pdSllNwtDDI?si=NPaoxdKaOOz9s3Wa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/pdSllNwtDDI?si=NPaoxdKaOOz9s3Wa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                             <div class="slider-img">
-                            <iframe  src="https://www.youtube.com/embed/VdvgbdaYNVM?si=0n7uB0_fyuqnod4T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/VdvgbdaYNVM?si=0n7uB0_fyuqnod4T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
-                            
+
                         </div>
 
                     </div>
@@ -327,23 +327,6 @@ Template Name: service
                 <div class="card">
                     <div class="check-mark"><i class="fa-regular fa-circle-check"></i></div>
                     <div class="card-icon">
-                        <i class="fa-regular fa-comment"></i>
-                    </div>
-                    <div class="card-title">
-                        要件定義
-                    </div>
-                    <div class="card-text">
-                        web制作や動画制作の目的や
-                        ゴールの設定
-                        必要な機能要件を定義し解決策をご提案します
-                    </div>
-                </div>
-                <div class="triangle">
-                    <i class="fa-solid fa-play"></i>
-                </div>
-                <div class="card">
-                    <div class="check-mark"><i class="fa-regular fa-circle-check"></i></div>
-                    <div class="card-icon">
                         <i class="fa-solid fa-ear-listen"></i>
                     </div>
                     <div class="card-title">
@@ -353,6 +336,23 @@ Template Name: service
                         お客様の課題や目的を
                         ヒアリング、スケジュール、
                         概算費用をおまとめします
+                    </div>
+                </div>
+                <div class="triangle">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="card">
+                    <div class="check-mark"><i class="fa-regular fa-circle-check"></i></div>
+                    <div class="card-icon">
+                        <i class="fa-regular fa-comment"></i>
+                    </div>
+                    <div class="card-title">
+                        要件定義
+                    </div>
+                    <div class="card-text">
+                        web制作や動画制作の目的や
+                        ゴールの設定
+                        必要な機能要件を定義し解決策をご提案します
                     </div>
                 </div>
                 <div class="triangle">
