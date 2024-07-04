@@ -32,7 +32,7 @@ header {
   width: 100%;
 
   .logo {
-    height: 100%;
+    height: 80%;
   }
 
   .menu-icon {
@@ -420,6 +420,7 @@ header {
 
   .image-content {
     flex: 1 1 50%;
+    max-height: 500px;
 
     @media (max-width: 1024px) {
       aspect-ratio: 16 / 9;
@@ -435,17 +436,17 @@ header {
       /* 追加 */
     }
 
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
     picture {
       @media (max-width: 1024px) {
         opacity: 0.4;
         width: 100%;
         height: 100%;
-
-        img {
-          object-fit: cover;
-          width: 100%;
-          height: 100%;
-        }
       }
     }
   }
@@ -926,9 +927,10 @@ header {
 
 #contact {
   padding-top: 100px;
-  background-image: url("./assets/images/camera-sample.jpg");
+  background-image: url("./assets/images/green-4038365_1920.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
   padding: 100px 7%;
 
   .content {

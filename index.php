@@ -65,7 +65,7 @@ Template Name: top
 
                     <div class="text-content">
                         <div class="text-title">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellow.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg" alt="">
                             <h3>MISSION</h3>
                         </div>
                         <div class="text">
@@ -76,9 +76,9 @@ Template Name: top
 
                     <div class="image-content">
                         <picture>
-                            <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
-                            <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" alt="<?php bloginfo('name'); ?>" type="image/png">
+                            <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" type="image/png">
+                            <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" type="image/png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="<?php bloginfo('name'); ?>" type="image/png">
                         </picture>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ Template Name: top
 
                     <div class="text-content">
                         <div class="text-title">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellow.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg" alt="">
                             <h3>VISION</h3>
                         </div>
                         <div class="text">
@@ -98,16 +98,16 @@ Template Name: top
                     </div>
                     <div class="image-content">
                         <picture>
-                            <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
-                            <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" alt="<?php bloginfo('name'); ?>" type="image/png">
+                            <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" type="image/png">
+                            <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" type="image/png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" alt="<?php bloginfo('name'); ?>" type="image/png">
                         </picture>
                     </div>
                 </div>
                 <div class="content" id="value">
                     <div class="text-content">
                         <div class="text-title">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellow.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg" alt="">
                             <h3>VALUE</h3>
                         </div>
                         <div class="text">
@@ -118,9 +118,9 @@ Template Name: top
                     </div>
                     <div class="image-content">
                         <picture>
-                            <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
-                            <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" type="image/svg+xml">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sample3.jpg" alt="<?php bloginfo('name'); ?>" type="image/png">
+                            <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" type="image/png">
+                            <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" type="image/png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" alt="<?php bloginfo('name'); ?>" type="image/png">
                         </picture>
                     </div>
                 </div>
