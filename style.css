@@ -708,12 +708,24 @@ header {
   }
 
   #web-title {
-    background-color: #458cde;
+    background-image: url("./assets/images/web-banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80px;
   }
 
   #movie-title {
     margin-top: 100px;
-    background-color: #deaf45;
+    background-image: url("./assets/images/video.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80px;
+
+    h2{
+      line-height: 2.3;
+    }
   }
 
   font-family: var(--nomal-font);

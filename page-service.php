@@ -59,13 +59,15 @@ Template Name: service
 
                             <div class="image-content">
                                 <picture>
-                                    <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" type="image/svg+xml">
-                                    <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" type="image/svg+xml">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                    <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/web.png" type="image/png">
+                                    <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/web.png" type="image/png">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web.png" alt="<?php bloginfo('name'); ?>" type="image/png">
                                 </picture>
+                                <a href="<?php echo esc_url(home_url('/contact')); ?>">
                                 <button class="contact-button">
                                     資料請求
                                 </button>
+                                </a>
                             </div>
                         </div>
                         <div class="solution">
@@ -103,13 +105,15 @@ Template Name: service
 
                                 <div class="image-content">
                                     <picture>
-                                        <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg" type="image/svg+xml">
-                                        <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg" type="image/svg+xml">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/camera-sample.jpg" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                        <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/video.png" type="image/png">
+                                        <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/video.png" type="image/png">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/video.png" alt="<?php bloginfo('name'); ?>" type="image/png">
                                     </picture>
-                                    <button class="contact-button">
-                                        資料請求
-                                    </button>
+                                    <a href="<?php echo esc_url(home_url('/contact')); ?>">
+                                        <button class="contact-button">
+                                            資料請求
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="solution">
@@ -177,7 +181,7 @@ Template Name: service
 
             <div id="movie">
                 <div id="movie-title" class="service-title">
-                    <h2>もっと「知りたい」と思わせる心に届くUI設計とデザイン</h2>
+                    <h2>圧倒的に印象に残る動画で</h2>
                 </div>
 
                 <div class="text-area">

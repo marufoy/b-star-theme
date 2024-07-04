@@ -16,9 +16,9 @@
 
             <nav>
                 <ul>
-                    <li><a href="/">ABOUT US</a></li>
-                    <li><a href="/service">SERVICE</a></li>
-                    <li><a href="/contact">CONTACT</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/')); ?>">ABOUT</a></li>
+                    <a href="<?php echo esc_url(home_url('/service')); ?>">SERVICE</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/contact')); ?>">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
