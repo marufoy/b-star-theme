@@ -7,7 +7,7 @@
 <footer>
     <div class="container">
         <div class="footer-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-logo.svg" alt="<?php bloginfo('name'); ?>" type="image/png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="<?php bloginfo('name'); ?>" type="image/png">
         </div>
         <div class="footer-nav">
             <div class="footer-overview">
@@ -17,7 +17,7 @@
             <nav>
                 <ul>
                     <li><a href="<?php echo esc_url(home_url('/')); ?>">ABOUT</a></li>
-                    <a href="<?php echo esc_url(home_url('/service')); ?>">SERVICE</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/service')); ?>">SERVICE</a></li>
                     <li><a href="<?php echo esc_url(home_url('/contact')); ?>">CONTACT</a></li>
                 </ul>
             </nav>

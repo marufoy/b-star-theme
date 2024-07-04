@@ -1319,7 +1319,7 @@ footer {
   .footer-logo {
     width: 10%;
     height: 10%;
-
+    padding: 10px;
     @media (max-width: 1024px) {
       width: 100px;
     }
