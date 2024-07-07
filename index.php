@@ -91,7 +91,7 @@ Template Name: top
                         </div>
                         <div class="text">
                             <h4>会社の「創造する未来」を共に築き
-                            ステークホルダーの生活を豊かに活気溢れるものに</h4>
+                                ステークホルダーの生活を豊かに活気溢れるものに</h4>
                             <p>私たちの最終目標は会社のビジョンを実現することです。そのために、全ての活動において一貫性と誠実さを持ち、持続可能な成長を追求します。お客様と共に築く未来は、私たちのビジョンの結晶であり、その実現には全力を尽くします。
                             </p>
                         </div>
@@ -113,7 +113,7 @@ Template Name: top
                         <div class="text">
                             <h4>企業の発展を促進しビジョンの実現に貢献する</h4>
                             <p>デジタルソリューションを通して
-                            お客様の課題を解決し「創造する未来」の実現に貢献すことをを目指します。</p>
+                                お客様の課題を解決し「創造する未来」の実現に貢献すことをを目指します。</p>
                         </div>
                     </div>
                     <div class="image-content">
@@ -137,20 +137,46 @@ Template Name: top
                     <div class="image-background">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/images/cycle.gif" alt="">
                     </div>
-                    <p>私たちは企業がvisionを実現することが日本中が生き生きと「幸せ」な世界を実現することに繋がると考えます。<br>
-                        <br>
-                        企業と従業員が共通のvisionの実現に向けて並走し、企業が幸せになれば、従業員も幸せになります。<br>
-                        結果的に好循環を生み出すことができます。
+                    <p>それぞれが理想とするなりたい姿を実現していく。<br>
+                        企業と従業員が共通のBe（理想の状態）に向けて並走し、企業の成長が従業員の幸せに繋がる。<br>
+                        そんな理想の循環を目指しています。<br>
+                        そんな好循環を生み出すことで働く人が生き生きと幸せな世界を実現できると考えています。
+
                     </p>
                 </div>
             </div>
 
+            <div class="cycle-text">
+                <div class="cycle-title" id="c-01">
+                    <h3><span>01.</span>目標の一致</h3>
+                    <p>目標が一致することで団結し、会社作りに一体感が生まれます。<br>
+                        社員全員が同じ目標を共有することで、正しい方向に物事を進めることができます。</p>
+                </div>
+                <div class="cycle-title" id="c-04">
+                    <h3><span>04.</span>生活の質の向上</h3>
+                    <p>仕事が楽しいと感じることで、人生を削る時間ではなく、人生の柱となる時間に変わります。<br>
+                        これにより、生活の質が向上します。</p>
+                </div>
+            </div>
             <div class="image-content">
                 <picture>
                     <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
                     <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" alt="<?php bloginfo('name'); ?>" type="image/png">
                 </picture>
+            </div>
+            <div class="cycle-text">
+                <div class="cycle-title" id="c-02">
+                    <h3><span>02.</span>会社の成長</h3>
+                    <p>会社が成長することで、手当の増加ややりがいを感じる機会が増えます。<br>
+                        その結果、従業員の満足度が向上します。</p>
+                </div>
+                <div class="cycle-title" id="c-03">
+                    <h3><span>03.</span>満足度の上昇</h3>
+                    <p>満足度が上がると社員のやる気が高まり、<br>
+                        活発なコミュニケーションで成果も向上し、働くことが楽しくなります。
+                    </p>
+                </div>
             </div>
 
 

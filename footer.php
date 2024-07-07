@@ -31,8 +31,7 @@
             </div>
 
             <div class="info-2">
-                <a href="/privacy-policy">プライバシーポリシー</a>
-                <a href="" id="terms">利用規約</a>
+                <a href="/privacy-policy">プライバシーポリシー/利用規約</a>
             </div>
 
         </div>

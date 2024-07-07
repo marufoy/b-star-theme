@@ -464,6 +464,7 @@ header {
   .text-content {
 
     flex: 1 1 50%;
+    margin-right: 20px;
 
     @media (max-width: 1024px) {
       display: flex;
@@ -514,9 +515,71 @@ header {
     }
   }
 
+  .cycle-text {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--nomal-font);
+
+    .cycle-title {
+      flex: 1;
+      max-width: 500px;
+
+      h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  #c-01 {
+    span {
+      color: rgb(192, 219, 111);
+    }
+
+    h3 {
+      border-bottom: rgb(192, 219, 111) 2px solid;
+    }
+  }
+
+  #c-02 {
+    span {
+      color: rgb(104, 188, 97);
+    }
+
+    h3 {
+      border-bottom: rgb(104, 188, 97) 2px solid;
+    }
+  }
+
+  #c-03 {
+    span {
+      color: rgb(85, 147, 197);
+    }
+
+    h3 {
+      border-bottom: rgb(85, 147, 197) 2px solid;
+    }
+  }
+
+  #c-04 {
+    span {
+      color: rgb(121, 183, 184);
+    }
+
+    h3 {
+      border-bottom: rgb(121, 183, 184) 2px solid;
+    }
+  }
+
   .image-content {
     flex: 1 1 50%;
-    border: red solid 1px;
 
     @media (max-width: 1024px) {
       margin-top: 100px;
@@ -723,7 +786,7 @@ header {
     background-repeat: no-repeat;
     min-height: 80px;
 
-    h2{
+    h2 {
       line-height: 2.3;
     }
   }
@@ -782,6 +845,12 @@ header {
 
   iflame {
     object-fit: cover;
+  }
+
+  .contact-button {
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-bottom: 30px;
   }
 }
 
@@ -941,7 +1010,7 @@ header {
   padding-top: 100px;
   background-image: url("./assets/images/green-4038365_1920.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   padding: 100px 7%;
 
@@ -1287,9 +1356,9 @@ header {
 }
 
 .mw_wp_form .error {
-	font-size : 93%;
-	color : #eeff00;
-	display : block;
+  font-size: 93%;
+  color: #eeff00;
+  display: block;
   margin-left: 10px;
 }
 
@@ -1320,6 +1389,7 @@ footer {
     width: 10%;
     height: 10%;
     padding: 10px;
+
     @media (max-width: 1024px) {
       width: 100px;
     }
@@ -1378,6 +1448,7 @@ footer {
 
     @media (max-width:1024px) {
       flex-direction: column;
+      padding: 0 10px;
     }
   }
 
@@ -1388,16 +1459,16 @@ footer {
 
 }
 
-#privacy-policy{
+#privacy-policy {
   background-image: url("./assets/images/privacy-policy-bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-top: 100px;
   padding-bottom: 100px;
-  
- 
 
-  .contents-area{
+
+
+  .contents-area {
     padding: 50px;
     margin-top: 50px;
     color: #ffffff;
@@ -1405,28 +1476,29 @@ footer {
     border-radius: 10px;
     backdrop-filter: blur(12px);
 
-    h1{
+    h1 {
       font-family: var(--nomal-font);
       font-size: 2rem;
       font-weight: bold;
 
-      &:not(:first-child){
+      &:not(:first-child) {
         margin-top: 30px;
       }
     }
-    h2{
+
+    h2 {
       font-size: 1.2rem;
       font-family: var(--nomal-font);
       display: block;
       border-bottom: 2px solid #fff;
       max-width: 300px;
 
-      &:not(:first-child){
+      &:not(:first-child) {
         margin-top: 20px;
       }
     }
 
-    p{
+    p {
       margin-top: 20px;
       font-family: var(--nomal-font);
       font-size: 1rem;

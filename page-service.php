@@ -64,9 +64,9 @@ Template Name: service
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web.png" alt="<?php bloginfo('name'); ?>" type="image/png">
                                 </picture>
                                 <a href="<?php echo esc_url(home_url('/contact')); ?>">
-                                <button class="contact-button">
-                                    資料請求
-                                </button>
+                                    <button class="contact-button">
+                                        資料請求
+                                    </button>
                                 </a>
                             </div>
                         </div>
@@ -204,10 +204,12 @@ Template Name: service
                         <p>
                             動画の企画から構成、SNSなどの投稿に適した縦型動画から横型動画まで最適な方法で
                             効果的なアプローチを実現します。
-
                         </p>
                     </div>
 
+                    <button class="contact-button">
+                        <a href="<?php echo esc_url(home_url('/contact')); ?>">資料請求</a>
+                    </button>
                     <div class="achievements">
                         <h3>参考動画</h3>
 
