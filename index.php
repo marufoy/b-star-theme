@@ -146,41 +146,80 @@ Template Name: top
                 </div>
             </div>
 
-            <div class="cycle-text">
-                <div class="cycle-title" id="c-01">
-                    <h3><span>01.</span>目標の一致</h3>
-                    <p>目標が一致することで団結し、会社作りに一体感が生まれます。<br>
-                        社員全員が同じ目標を共有することで、正しい方向に物事を進めることができます。</p>
+            <div class="cycle-discription">
+                <div class="cycle-text">
+                    <div class="cycle-title" id="c-01">
+                        <h3><span>01.</span>目標の一致</h3>
+                        <p>目標が一致することで団結し、会社作りに一体感が生まれます。<br>
+                            社員全員が同じ目標を共有することで、正しい方向に物事を進めることができます。</p>
+                    </div>
+                    <div class="cycle-title" id="c-04">
+                        <h3><span>04.</span>生活の質の向上</h3>
+                        <p>仕事が楽しいと感じることで、人生を削る時間ではなく、人生の柱となる時間に変わります。<br>
+                            これにより、生活の質が向上します。</p>
+                    </div>
                 </div>
-                <div class="cycle-title" id="c-04">
-                    <h3><span>04.</span>生活の質の向上</h3>
-                    <p>仕事が楽しいと感じることで、人生を削る時間ではなく、人生の柱となる時間に変わります。<br>
-                        これにより、生活の質が向上します。</p>
+                <div class="image-content">
+                    <picture>
+                        <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
+                        <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                    </picture>
                 </div>
-            </div>
-            <div class="image-content">
-                <picture>
-                    <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
-                    <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" alt="<?php bloginfo('name'); ?>" type="image/png">
-                </picture>
-            </div>
-            <div class="cycle-text">
-                <div class="cycle-title" id="c-02">
-                    <h3><span>02.</span>会社の成長</h3>
-                    <p>会社が成長することで、手当の増加ややりがいを感じる機会が増えます。<br>
-                        その結果、従業員の満足度が向上します。</p>
-                </div>
-                <div class="cycle-title" id="c-03">
-                    <h3><span>03.</span>満足度の上昇</h3>
-                    <p>満足度が上がると社員のやる気が高まり、<br>
-                        活発なコミュニケーションで成果も向上し、働くことが楽しくなります。
-                    </p>
+                <div class="cycle-text">
+                    <div class="cycle-title" id="c-02">
+                        <h3><span>02.</span>会社の成長</h3>
+                        <p>会社が成長することで、手当の増加ややりがいを感じる機会が増えます。<br>
+                            その結果、従業員の満足度が向上します。</p>
+                    </div>
+                    <div class="cycle-title" id="c-03">
+                        <h3><span>03.</span>満足度の上昇</h3>
+                        <p>満足度が上がると社員のやる気が高まり、<br>
+                            活発なコミュニケーションで成果も向上し、働くことが楽しくなります。
+                        </p>
+                    </div>
                 </div>
             </div>
 
+            <div class="cycle-discription-sp">
 
+                <div class="image-content">
+                    <picture>
+                        <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
+                        <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                    </picture>
+                </div>
+                <div class="cycle-text">
+                    <div class="cycle-title" id="c-01-sp">
+                        <h3><span>01.</span>目標の一致</h3>
+                        <p>目標が一致することで団結し、会社作りに一体感が生まれます。<br>
+                            社員全員が同じ目標を共有することで、正しい方向に物事を進めることができます。</p>
+                    </div>
+                    <div class="cycle-title" id="c-02-sp">
+                        <h3><span>02.</span>会社の成長</h3>
+                        <p>会社が成長することで、手当の増加ややりがいを感じる機会が増えます。<br>
+                            その結果、従業員の満足度が向上します。</p>
+                    </div>
+                </div>
+
+                <div class="cycle-text">
+                    <div class="cycle-title" id="c-03-sp">
+                        <h3><span>03.</span>満足度の上昇</h3>
+                        <p>満足度が上がると社員のやる気が高まり、<br>
+                            活発なコミュニケーションで成果も向上し、働くことが楽しくなります。
+                        </p>
+                    </div>
+                    <div class="cycle-title" id="c-04-sp">
+                        <h3><span>04.</span>生活の質の向上</h3>
+                        <p>仕事が楽しいと感じることで、人生を削る時間ではなく、人生の柱となる時間に変わります。<br>
+                            これにより、生活の質が向上します。</p>
+                    </div>
+                </div>
+            </div>
         </section>
+
+
 
     </div>
 

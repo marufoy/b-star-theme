@@ -465,6 +465,7 @@ header {
 
     flex: 1 1 50%;
     margin-right: 20px;
+    min-width: 30%;
 
     @media (max-width: 1024px) {
       display: flex;
@@ -515,73 +516,162 @@ header {
     }
   }
 
-  .cycle-text {
+  .cycle-discription {
     display: flex;
-    flex-direction: column;
-    font-family: var(--nomal-font);
 
-    .cycle-title {
-      flex: 1;
-      max-width: 500px;
+    @media (max-width:1024px) {
+      display: none;
+    }
+
+    .cycle-text {
+      display: flex;
+      flex-direction: column;
+      font-family: var(--nomal-font);
+      gap: 50px;
+      .cycle-title {
+        max-width: 300px;
+
+        h3 {
+          font-size: 2rem;
+          font-weight: bold;
+          display: inline-block;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    #c-01 {
+      span {
+        color: rgb(192, 219, 111);
+      }
 
       h3 {
-        font-size: 2rem;
-        font-weight: bold;
-        display: inline-block;
-        margin: 0 auto;
-        margin-bottom: 10px;
+        border-bottom: rgb(192, 219, 111) 2px solid;
       }
 
-      p {
-        font-size: 1.2rem;
+    }
+
+    #c-02 {
+      span {
+        color: rgb(104, 188, 97);
+      }
+
+      h3 {
+        border-bottom: rgb(104, 188, 97) 2px solid;
+      }
+    }
+
+    #c-03 {
+      span {
+        color: rgb(85, 147, 197);
+      }
+
+      h3 {
+        border-bottom: rgb(85, 147, 197) 2px solid;
+      }
+    }
+
+    #c-04 {
+      span {
+        color: rgb(121, 183, 184);
+      }
+
+      h3 {
+        border-bottom: rgb(121, 183, 184) 2px solid;
+      }
+    }
+
+    .image-content {
+      flex: 1 1 50%;
+
+      @media (max-width: 1024px) {
+        margin-top: 100px;
+        order: 1;
       }
     }
   }
 
-  #c-01 {
-    span {
-      color: rgb(192, 219, 111);
+  .cycle-discription-sp {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width:1025px) {
+      display: none;
     }
 
-    h3 {
-      border-bottom: rgb(192, 219, 111) 2px solid;
-    }
-  }
+    .cycle-text {
+      display: flex;
+      flex-direction: column;
+      font-family: var(--nomal-font);
 
-  #c-02 {
-    span {
-      color: rgb(104, 188, 97);
-    }
+      .cycle-title {
+        flex: 1;
+        margin-top: 50px;
 
-    h3 {
-      border-bottom: rgb(104, 188, 97) 2px solid;
-    }
-  }
+        h3 {
+          font-size: 2rem;
+          font-weight: bold;
+          display: inline-block;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
 
-  #c-03 {
-    span {
-      color: rgb(85, 147, 197);
-    }
-
-    h3 {
-      border-bottom: rgb(85, 147, 197) 2px solid;
-    }
-  }
-
-  #c-04 {
-    span {
-      color: rgb(121, 183, 184);
+        p {
+          font-size: 1.1rem;
+        }
+      }
     }
 
-    h3 {
-      border-bottom: rgb(121, 183, 184) 2px solid;
+    #c-01-sp {
+      span {
+        color: rgb(192, 219, 111);
+      }
+
+      h3 {
+        border-bottom: rgb(192, 219, 111) 2px solid;
+      }
+
     }
-  }
 
-  .image-content {
-    flex: 1 1 50%;
+    #c-02-sp {
+      span {
+        color: rgb(104, 188, 97);
+      }
 
-    @media (max-width: 1024px) {
+      h3 {
+        border-bottom: rgb(104, 188, 97) 2px solid;
+      }
+    }
+
+    #c-03-sp {
+      span {
+        color: rgb(85, 147, 197);
+      }
+
+      h3 {
+        border-bottom: rgb(85, 147, 197) 2px solid;
+      }
+    }
+
+    #c-04-sp {
+      span {
+        color: rgb(121, 183, 184);
+      }
+
+      h3 {
+        border-bottom: rgb(121, 183, 184) 2px solid;
+      }
+    }
+
+    .image-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin-top: 100px;
     }
   }
