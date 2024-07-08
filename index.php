@@ -137,10 +137,10 @@ Template Name: top
                     <div class="image-background">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/images/cycle.gif" alt="">
                     </div>
-                    <p>それぞれが理想とするなりたい姿を実現していく。<br>
+                    <p>
                         企業と従業員が共通のBe（理想の状態）に向けて並走し、企業の成長が従業員の幸せに繋がる。<br>
                         そんな理想の循環を目指しています。<br>
-                        そんな好循環を生み出すことで働く人が生き生きと幸せな世界を実現できると考えています。
+                        好循環を生み出すことで働く人が生き生きと幸せな世界を実現できると考えています。
 
                     </p>
                 </div>
