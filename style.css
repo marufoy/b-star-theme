@@ -1459,7 +1459,7 @@ header {
 footer {
   border-top: 1px solid white;
   font-family: var(--nomal-font);
-  background: #000000;
+  background: #01010f;
   display: flex;
   flex-direction: column;
   justify-content: center;
