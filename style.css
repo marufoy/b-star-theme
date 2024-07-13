@@ -460,6 +460,7 @@ header {
 #cycle {
   margin-top: 200px;
   display: flex;
+  flex-direction: column;
 
   @media (max-width: 1024px) {
     flex-direction: column;
@@ -504,7 +505,6 @@ header {
       font-family: var(--nomal-font);
       font-weight: bolder;
       font-size: 2rem;
-      max-width: 600px;
 
       @media (max-width: 1024px) {
         font-size: 1rem;
@@ -522,6 +522,9 @@ header {
 
   .cycle-discription {
     display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
 
     @media (max-width:1024px) {
       display: none;
@@ -531,9 +534,9 @@ header {
       display: flex;
       flex-direction: column;
       font-family: var(--nomal-font);
-      gap: 50px;
+      gap: 80px;
       .cycle-title {
-        max-width: 300px;
+        max-width: 450px;
 
         h3 {
           font-size: 2rem;
@@ -592,7 +595,7 @@ header {
 
     .image-content {
       flex: 1 1 50%;
-
+      max-width: 35%;
       @media (max-width: 1024px) {
         margin-top: 100px;
         order: 1;
@@ -676,7 +679,9 @@ header {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 100px;
+      margin: 100px auto 0 auto;
+      max-width: 80%;
+
     }
   }
 }
