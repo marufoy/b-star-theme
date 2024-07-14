@@ -123,16 +123,13 @@ Template Name: service
 
 
 
-                            <div class="slider">
-                                <div>
-                                    <div class="video-container">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bjmBJ1Fl0cs?si=N_5aMAp5EJYwb86P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                                <div class="video-container">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WppP7RqXRRk?si=dlJx_H5o4O8qDSFX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                </div>
-                            </div>
+                            <ul class="slider" id="js-slider">
+                                <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" alt="<?php bloginfo('name'); ?>" type="image/png"></a></li>
+                                <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="<?php bloginfo('name'); ?>" type="image/png"></a></li>
+                                <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" alt="<?php bloginfo('name'); ?>" type="image/png"></a></li>
+
+                            </ul>
+                            <div class="dots"></div>
                         </div>
                     </div>
                 </div>
@@ -213,18 +210,12 @@ Template Name: service
                     <div class="achievements">
                         <h3>参考動画</h3>
 
-                        <div class="slider">
-                            <div class="slider-img">
-                                <iframe src="https://www.youtube.com/embed/fNSbb-Fjhd8?si=pvPSjpHcJthtn6pi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </div>
-                            <div class="slider-img">
-                                <iframe src="https://www.youtube.com/embed/pdSllNwtDDI?si=NPaoxdKaOOz9s3Wa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </div>
-                            <div class="slider-img">
-                                <iframe src="https://www.youtube.com/embed/VdvgbdaYNVM?si=0n7uB0_fyuqnod4T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </div>
-
-                        </div>
+                        <ul class="slider" id="js-slider-sp">
+                            <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" alt="<?php bloginfo('name'); ?>" type="image/png"></a></li>
+                            <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="<?php bloginfo('name'); ?>" type="image/png"></a></li>
+                            <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" alt="<?php bloginfo('name'); ?>" type="image/png"></a></li>
+                        </ul>
+                        <div class="dots"></div>
 
                     </div>
 
