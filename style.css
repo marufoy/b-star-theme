@@ -1118,10 +1118,12 @@ header {
     .card {
       position: relative;
 
-
-
       i {
         font-size: 4rem;
+
+        @media (max-width:1024px) {
+          font-size: 3rem;
+        }
       }
 
       .check-mark i {
@@ -1141,18 +1143,27 @@ header {
       align-items: center;
       text-align: center;
       max-width:400px;
-      /* border: 1px solid white; */
+      
+      @media (max-width:1024px) {
+        padding: 20px 20px 40px 20px;
+      }
     }
 
     .card-title {
       font-weight: bold;
       margin-top: 20px;
       font-size: 1.5rem;
+      @media (max-width:1024px) {
+        font-size: 1rem;
+      }
     }
 
     .card-text {
       margin-top: 10px;
       font-size: 1.2rem;
+      @media (max-width:1024px) {
+        font-size: 1rem;
+      }
     }
 
     .triangle i {
