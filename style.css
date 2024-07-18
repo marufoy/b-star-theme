@@ -743,6 +743,8 @@ header {
     font-family: var(--title-font);
   }
 
+
+
   .content {
     display: flex;
     justify-content: space-between;
@@ -757,16 +759,37 @@ header {
       }
 
       .text {
-        line-height: 2;
         font-family: var(--nomal-font);
-        margin-top: 60px;
+        margin-top: 50px;
+        font-size: 1.4rem;
+        max-width: 900px;
+      }
 
-        ul li {
-          h4 {
-            font-weight: bold;
+      .icons{
+        display: flex;
+        gap: 50px;
+        margin-top: 30px;
+
+        .icon{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          max-width: 200px;
+          border: 1px solid blue;
+          .icon-img{
+            border: 1px solid rgb(255, 255, 255);
+            width: 90%;
+            img{
+              width: 100%;
+              object-fit: cover;
+            }
+            
           }
 
-          font-size: 1.6rem;
+          .icon-txt{
+            margin-top: 5px;
+            text-align: center;
+          }
         }
       }
 

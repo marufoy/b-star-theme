@@ -36,24 +36,43 @@ Template Name: service
                             <div class="text-content">
                                 <div class="title-text">
                                     <div class="title">
-                                        <h3>もっと「知りたい」と思わせる</h3>
-                                        <h3>心に届くUI設計とデザイン</h3>
+                                        <h3>人の心をつかむデザイン</h3>
                                     </div>
                                 </div>
 
                                 <div class="text">
-                                    <div class="issue">
-                                        <ul>
-                                            <li>
-                                                <h4>よくある課題</h4>
-                                            </li>
-                                            <li>アクセス数が少ない</li>
-                                            <li>かっこいいデザインにしたい</li>
-                                            <li>使い勝手が悪い、</li>
-                                            <li>スマートフォンに対応したHPが欲しい</li>
-                                            <li>採用活動におけるミスマッチ</li>
-                                        </ul>
+                                    <p>
+                                        ウェブサイトは企業の顔、信頼の証です。<br>
+                                        サイトを持つことで、顧客との信頼が深まり、メニューや営業時間などの情報提供がしやすくなります。
+                                    </p>
+                                </div>
+
+                                <div class="icons">
+                                    <div class="icon">
+                                        <div class="icon-img">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                        </div>
+                                        <div class="icon-txt">
+                                            ksjflk
+                                        </div>
                                     </div>
+                                    <div class="icon">
+                                        <div class="icon-img">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                        </div>
+                                        <div class="icon-txt">
+                                            ksjflk
+                                        </div>
+                                    </div>
+                                    <div class="icon">
+                                        <div class="icon-img">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                        </div>
+                                        <div class="icon-txt">
+                                            ksjflk
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
 
@@ -89,17 +108,38 @@ Template Name: service
                                     </div>
 
                                     <div class="text">
-                                        <div class="issue">
-                                            <ul>
-                                                <li>
-                                                    <h4>よくある課題</h4>
-                                                </li>
-                                                <li>SNSアカウントは立ち上げたが投稿が止まっている</li>
-                                                <li>SNS運用をしていきたいが動画制作ノウハウがない</li>
-                                                <li>会社紹介など動画を作ってみたいが何からはじめていいのかわからない</li>
-                                                <li>動画がどのように活用できるのかわからない</li>
-                                            </ul>
+                                        <p>
+                                        映像は、ダイナミックに魅力を伝えられる強力なコンテンツです。<br>
+                                        視覚や聴覚を刺激し、感情に響くメッセージを届けます。魅力的な映像を使うことで、ブランドの印象を強化し、顧客の興味を引きつけることができます。
+                                        </p>
+                                    </div>
+
+                                    <div class="icons">
+                                        <div class="icon">
+                                            <div class="icon-img">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                            </div>
+                                            <div class="icon-txt">
+                                                ksjflk
+                                            </div>
                                         </div>
+                                        <div class="icon">
+                                            <div class="icon-img">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                            </div>
+                                            <div class="icon-txt">
+                                                ksjflk
+                                            </div>
+                                        </div>
+                                        <div class="icon">
+                                            <div class="icon-img">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                            </div>
+                                            <div class="icon-txt">
+                                                ksjflk
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
 
