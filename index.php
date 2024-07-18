@@ -132,9 +132,6 @@ Template Name: top
                     <h3>理想の循環</h3>
                 </div>
                 <div class="subtext">
-                    <div class="image-background">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/cycle.gif" alt="">
-                    </div>
                     <p>
                         企業と従業員が共通のBe（理想の状態）に向けて並走し、企業の成長が従業員の幸せに繋がる。<br>
                         そんな理想の循環を目指しています。<br>
