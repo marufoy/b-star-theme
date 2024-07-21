@@ -37,7 +37,7 @@
         <span id="copy">&copy; B-STAR INC... </span>
     </div>
 </footer>
-</div><!--//class="wrap"-->
+</div>
 <?php wp_footer(); ?>
 </body>
 

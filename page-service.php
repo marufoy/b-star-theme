@@ -78,9 +78,9 @@ Template Name: service
 
                             <div class="image-content">
                                 <picture>
-                                    <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/web.png" type="image/png">
-                                    <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/web.png" type="image/png">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                    <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/web.jpg" type="image/jpg">
+                                    <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/web.jpg" type="image/jpg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web.jpg" alt="<?php bloginfo('name'); ?>" type="image/jpg">
                                 </picture>
                                 <a href="<?php echo esc_url(home_url('/contact')); ?>">
                                     <button class="contact-button">

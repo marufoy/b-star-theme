@@ -171,11 +171,11 @@ header {
   text-shadow: 1px 1px 5px;
 }
 
-.overlay-text h1:nth-child(2) {
+.overlay-text h1 {
   /* スタイル指定 */
   font-size: var(--font-size);
   color: #ffffff;
-  transform: translate(50px, 20px);
+  /* transform: translate(50px, 20px); */
 }
 
 @media (max-width: 1024px) {
@@ -265,7 +265,6 @@ header {
 
     @media (max-width: 1024px) {
       font-size: 1.5rem;
-      text-align: center;
       margin-bottom: 50px;
     }
   }
@@ -403,7 +402,7 @@ header {
       h4 {
         font-family: var(--section-font);
         font-weight: 400;
-        font-size: 2.4rem;
+        font-size: 2.2rem;
 
         @media (max-width: 1024px) {
           font-size: 1.4rem;
@@ -414,7 +413,7 @@ header {
         margin-top: 20px;
         font-family: var(--nomal-font);
         font-weight: bolder;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
 
         @media (max-width: 1024px) {
           font-size: 0.9rem;
