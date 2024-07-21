@@ -1,5 +1,10 @@
 jQuery(document).ready(function ($) {
     // Scroll event handling
+    var lastScrollTop = 0;
+    var delta = 5;
+    var header = $('header');
+    var headerHeight = header.outerHeight();
+
     $(window).on('scroll', function () {
         var scrollPosition = $(window).scrollTop();
         var windowHeight = $(window).height();
@@ -20,6 +25,18 @@ jQuery(document).ready(function ($) {
             $('.video-background video').css('transition', 'opacity 0.5s').css('opacity', '0'); // CSSのトランジションを使用してゆっくり非表示にする
         } else {
             $('.video-background video').css('transition', 'opacity 0.5s').css('opacity', '1');
+        }
+
+        // Add logic for hiding/showing header on scroll
+        if (Math.abs(lastScrollTop - scrollPosition) > delta) {
+            if (scrollPosition > lastScrollTop && scrollPosition > headerHeight) {
+                header.addClass('hidden');
+            } else {
+                if (scrollPosition + windowHeight < $(document).height()) {
+                    header.removeClass('hidden');
+                }
+            }
+            lastScrollTop = scrollPosition;
         }
     });
 
