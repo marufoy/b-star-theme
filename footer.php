@@ -27,7 +27,6 @@
             <div class="info">
                 <p>社名 株式会社B-STAR</p>
                 <p>設立 2024.03.23</p>
-                <p>所在 山梨県甲府市</p>
             </div>
 
             <div class="info-2">
