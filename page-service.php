@@ -90,7 +90,7 @@ Template Name: service
                             </div>
                         </div>
                         <div class="solution">
-                            <p>UI設計、デザイン制作、映像制作など、それぞれ組み合わせ抱える課題を解決いたします。<br>
+                            <p>UI設計、CMS、レスポンシブなど、それぞれ組み合わせ抱える課題を解決いたします。<br>
                                 企業サイトや採用サイトなどのweb制作はお任せください。</p>
                         </div>
 
@@ -234,7 +234,7 @@ Template Name: service
 
                     <div class="solution">
                         <p>
-                            UI設計、デザイン制作、映像制作など、それぞれ組み合わせ抱える課題を解決いたします。
+                            UI設計、CMS、レスポンシブなど、それぞれ組み合わせ抱える課題を解決いたします。
                             企業サイトや採用サイトなどのweb制作はお任せください。
                         </p>
                     </div>
@@ -329,13 +329,13 @@ Template Name: service
             <div class="cards">
                 <div class="card">
                     <div class="card-icon">
-                        <i class="fa-solid fa-gear"></i>
+                        <i class="fa-solid fa-crown"></i>
                     </div>
                     <div class="card-title">
                         ブランディング
                     </div>
                     <div class="card-text">
-                        ブランドを構築し、自社の経営理念に共感したお客様を獲得
+                        構築したいイメージをHPに落とし込みロイヤルティーを高める
                     </div>
                 </div>
                 <div class="card">
@@ -357,7 +357,7 @@ Template Name: service
                         優良顧客の獲得
                     </div>
                     <div class="card-text">
-                        効果的なデザインでWebサイトを構築、ターゲットへのアプローチを強める
+                        効果的なデザインで、ターゲットへのアプローチを強める
 
                     </div>
                 </div>
@@ -369,8 +369,8 @@ Template Name: service
                         採用力アップ
                     </div>
                     <div class="card-text">
-                        採用要件に合致する方へリーチさせ
-                        一緒に働きたいと心躍るサイトを作り採用力アップ
+                        要件に合致する方へリーチさせ
+                        心躍るサイトを作り採用力アップ
                     </div>
                 </div>
                 <div class="card">

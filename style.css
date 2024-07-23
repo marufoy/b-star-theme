@@ -408,7 +408,8 @@ header {
       h4 {
         font-family: var(--section-font);
         font-weight: 400;
-        font-size: 2.2rem;
+        /* font-size: 2.2rem; */
+        font-size: clamp(1.5rem, 8vw + 1rem, 2.4rem);
 
         @media (max-width: 1024px) {
           font-size: 1.4rem;
@@ -1143,7 +1144,7 @@ header {
       background-color: white;
 
       @media (max-width: 1024px) {
-        padding: 20px;
+        padding: 20px 10px;
         margin-bottom: 0;
         max-width: calc(50% - 10px);
         /* カードが2つ並ぶように設定 */
