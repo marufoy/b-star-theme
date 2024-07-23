@@ -25,7 +25,7 @@
 
         <div class="info-area">
             <div class="info">
-                <p>社名 株式会社B-STAR</p>
+                <p>社名 B-STAR</p>
                 <p>設立 2024.03.23</p>
             </div>
 
