@@ -18,7 +18,7 @@
                 <picture>
                     <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" type="image/svg+xml">
                     <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/sp-logo.svg" type="image/svg+xml">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="<?php bloginfo('name'); ?>" type="image/svg+xml">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="会社のロゴ" type="image/svg+xml">
                 </picture>
             </a>
         </div>

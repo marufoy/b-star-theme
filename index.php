@@ -63,7 +63,7 @@ Template Name: top
 
                     <div class="text-content">
                         <div class="text-title">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg">
                             <h3>MISSION</h3>
                         </div>
                         <div class="text">
@@ -80,7 +80,7 @@ Template Name: top
                         <picture>
                             <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" type="image/png">
                             <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" type="image/png">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="ミッションの" type="image/png">
                         </picture>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ Template Name: top
 
                     <div class="text-content">
                         <div class="text-title">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg">
                             <h3>VISION</h3>
                         </div>
                         <div class="text">
@@ -104,14 +104,14 @@ Template Name: top
                         <picture>
                             <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" type="image/png">
                             <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" type="image/png">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" alt="ビジョンのイメージ画像" type="image/png">
                         </picture>
                     </div>
                 </div>
                 <div class="content" id="value">
                     <div class="text-content">
                         <div class="text-title">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg">
                             <h3>VALUE</h3>
                         </div>
                         <div class="text">
@@ -123,7 +123,7 @@ Template Name: top
                         <picture>
                             <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" type="image/png">
                             <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" type="image/png">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" alt="バリューのイメージ画像" type="image/png">
                         </picture>
                     </div>
                 </div>
@@ -162,7 +162,7 @@ Template Name: top
                     <picture>
                         <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
                         <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" alt="理想の循環のイメージ画像" type="image/png">
                     </picture>
                 </div>
                 <div class="cycle-text">
@@ -186,7 +186,7 @@ Template Name: top
                     <picture>
                         <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
                         <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" type="image/svg+xml">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cycle.png" alt="理想の循環のイメージ画像" type="image/png">
                     </picture>
                 </div>
                 <div class="cycle-text">

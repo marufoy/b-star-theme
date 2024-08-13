@@ -7,7 +7,7 @@
 <footer>
     <div class="container">
         <div class="footer-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="<?php bloginfo('name'); ?>" type="image/png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="会社のロゴ" type="image/png">
         </div>
         <div class="footer-nav">
             <div class="footer-overview">

@@ -50,7 +50,7 @@ Template Name: service
                                 <div class="icons">
                                     <div class="icon">
                                         <div class="icon-img">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ui-ux.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ui-ux.png" alt="UI設計のアイコン" type="image/png">
                                         </div>
                                         <div class="icon-txt">
                                             UI設計
@@ -58,7 +58,7 @@ Template Name: service
                                     </div>
                                     <div class="icon">
                                         <div class="icon-img">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cms.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cms.png" alt="CMSのアイコン" type="image/png">
                                         </div>
                                         <div class="icon-txt">
                                             CMS
@@ -66,7 +66,7 @@ Template Name: service
                                     </div>
                                     <div class="icon">
                                         <div class="icon-img">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/responsive.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/responsive.png" alt="レスポンシブのアイコン" type="image/png">
                                         </div>
                                         <div class="icon-txt">
                                             レスポンシブ
@@ -80,7 +80,7 @@ Template Name: service
                                 <picture>
                                     <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/web.jpg" type="image/jpg">
                                     <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/web.jpg" type="image/jpg">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web.jpg" alt="<?php bloginfo('name'); ?>" type="image/jpg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web.jpg" alt="webサイト制作のイメージ画像" type="image/jpg">
                                 </picture>
                                 <a href="<?php echo esc_url(home_url('/contact')); ?>">
                                     <button class="contact-button">
@@ -117,7 +117,7 @@ Template Name: service
                                     <div class="icons">
                                         <div class="icon">
                                             <div class="icon-img">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/target.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/target.png" alt="企画のアイコン" type="image/png">
                                             </div>
                                             <div class="icon-txt">
                                                 企画
@@ -125,7 +125,7 @@ Template Name: service
                                         </div>
                                         <div class="icon">
                                             <div class="icon-img">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/edit.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/edit.png" alt="編集のアイコン" type="image/png">
                                             </div>
                                             <div class="icon-txt">
                                                 撮影・編集
@@ -133,7 +133,7 @@ Template Name: service
                                         </div>
                                         <div class="icon">
                                             <div class="icon-img">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sns.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sns.png" alt="SNSのアイコン" type="image/png">
                                             </div>
                                             <div class="icon-txt">
                                                 SNS特化
@@ -147,7 +147,7 @@ Template Name: service
                                     <picture>
                                         <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/video.png" type="image/png">
                                         <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/video.png" type="image/png">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/video.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/video.png" alt="動画作成のイメージ画像" type="image/png">
                                     </picture>
                                     <a href="<?php echo esc_url(home_url('/contact')); ?>">
                                         <button class="contact-button">
@@ -164,10 +164,10 @@ Template Name: service
 
 
                             <ul class="slider" id="js-slider">
-                                <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" alt="<?php bloginfo('name'); ?>" type="image/png"></a></li>
-                                <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="<?php bloginfo('name'); ?>" type="image/png"></a></li>
-                                <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" alt="<?php bloginfo('name'); ?>" type="image/png"></a></li>
-
+                                <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_1.jpg" alt="Youtube動画サムネイル" type="image/png"></a></li>
+                            <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_2.jpg" alt="Youtube動画サムネイル" type="image/png"></a></li>
+                            <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_3.jpg" alt="Youtube動画サムネイル" type="image/png"></a></li>
+                            <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_4.jpg" alt="Youtube動画サムネイル" type="image/png"></a></li>
                             </ul>
                             <div class="dots"></div>
                         </div>
@@ -207,7 +207,7 @@ Template Name: service
                     <div class="icons">
                         <div class="icon">
                             <div class="icon-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ui-ux.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ui-ux.png" alt="UI設計のアイコン" type="image/png">
                             </div>
                             <div class="icon-txt">
                                 UI設計
@@ -215,7 +215,7 @@ Template Name: service
                         </div>
                         <div class="icon">
                             <div class="icon-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cms.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cms.png" alt="CMSのアイコン" type="image/png">
                             </div>
                             <div class="icon-txt">
                                 CMS
@@ -223,7 +223,7 @@ Template Name: service
                         </div>
                         <div class="icon">
                             <div class="icon-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/responsive.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/responsive.png" alt="レスポンシブのアイコン" type="image/png">
                             </div>
                             <div class="icon-txt">
                                 レスポンシブ
@@ -261,7 +261,7 @@ Template Name: service
                     <div class="icons">
                         <div class="icon">
                             <div class="icon-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/target.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/target.png" alt="企画のアイコン" type="image/png">
                             </div>
                             <div class="icon-txt">
                                 企画
@@ -269,7 +269,7 @@ Template Name: service
                         </div>
                         <div class="icon">
                             <div class="icon-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/edit.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/edit.png" alt="編集のアイコン" type="image/png">
                             </div>
                             <div class="icon-txt">
                                 撮影・編集
@@ -277,7 +277,7 @@ Template Name: service
                         </div>
                         <div class="icon">
                             <div class="icon-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sns.png" alt="<?php bloginfo('name'); ?>" type="image/png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sns.png" alt="SNSのアイコン" type="image/png">
                             </div>
                             <div class="icon-txt">
                                 SNS特化
@@ -300,9 +300,10 @@ Template Name: service
                         <h3>参考動画</h3>
 
                         <ul class="slider" id="js-slider-sp">
-                            <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" alt="<?php bloginfo('name'); ?>" type="image/png"></a></li>
-                            <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="<?php bloginfo('name'); ?>" type="image/png"></a></li>
-                            <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" alt="<?php bloginfo('name'); ?>" type="image/png"></a></li>
+                            <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_1.jpg" alt="Youtubeのサムネイル" type="image/png"></a></li>
+                            <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_2.jpg" alt="Youtubeのサムネイル" type="image/png"></a></li>
+                            <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_3.jpg" alt="Youtubeのサムネイル" type="image/png"></a></li>
+                            <li><a href="<?php echo esc_url("google.com"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_4.jpg" alt="Youtubeのサムネイル" type="image/png"></a></li>
                         </ul>
                         <div class="dots"></div>
 
