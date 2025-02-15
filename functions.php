@@ -52,6 +52,7 @@ function add_custom_scripts()
     true
   );
 
+  // スクロールリビューアル
   wp_enqueue_script(
     'scroll-script',
     get_template_directory_uri() . '/assets/js/scrollreveal.min.js',
@@ -68,6 +69,22 @@ function add_custom_scripts()
     '1.0',
     true
   );
+
+
+  wp_enqueue_script(
+    'slick-init-script',
+    get_template_directory_uri() . '/assets/js/slick-init.js',
+    array('jquery', 'slick-script'),
+    '1.0',
+    true
+  );
 }
+
+wp_enqueue_script(
+  'tabs-script',
+  get_template_directory_uri() . '/assets/js/tabs.js',
+  array('jquery', 'tabs-library'),
+  '1.0',
+  true
+);
 add_action('wp_enqueue_scripts', 'add_custom_scripts');
-?>

@@ -42,8 +42,6 @@ jQuery(document).ready(function ($) {
         startPos = scrollPos;
 });
 
-// Initialize tabs
-tabify('#tabs');
 
 // Initialize slick slider for .slider
 // $('.slider').slick({
