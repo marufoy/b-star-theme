@@ -47,6 +47,32 @@ Template Name: top
             </div>
         </section>
 
+        <section id="works">
+            <div class="section-name">
+                <div class="title-text">
+                    <p class="en-title">WORKS</p>
+                    <p class="jp-title">実績紹介</p>
+                </div>
+                <div class="title-decoration">
+                    <span></span>
+                </div>
+            </div>  
+
+            <div class="contents">
+                <div class="achievements">
+                    <h3>参考動画</h3>
+
+                    <ul class="slider" id="js-slider-sp">
+                        <li><a href="<?php echo esc_url("https://www.youtube.com/watch?v=5H5CJ2WwxBk"); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_1.jpg" alt="Youtubeのサムネイル" type="image/png"></a></li>
+                        <li><a href="<?php echo esc_url("https://www.youtube.com/watch?v=8LHyJJKTuWc"); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_2.jpg" alt="Youtubeのサムネイル" type="image/png"></a></li>
+                        <li><a href="<?php echo esc_url("https://www.youtube.com/watch?v=Y9ZRMFwb6QM"); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_3.jpg" alt="Youtubeのサムネイル" type="image/png"></a></li>
+                    </ul>
+                    <div class="dots"></div>
+
+                </div>
+            </div>
+        </section>
+
         <section id="About-us">
             <div class="section-name">
                 <div class="title-text">
