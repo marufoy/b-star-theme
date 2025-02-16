@@ -163,7 +163,7 @@ Template Name: service
 
 
 
-                            <ul class="slider" id="js-slider">
+                            <ul class="slider" id="js-slider-service">
                                 <li><a href="<?php echo esc_url("https://www.youtube.com/watch?v=5H5CJ2WwxBk"); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_1.jpg" alt="Youtube動画サムネイル" type="image/png"></a></li>
                             <li><a href="<?php echo esc_url("https://www.youtube.com/watch?v=8LHyJJKTuWc"); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_2.jpg" alt="Youtube動画サムネイル" type="image/png"></a></li>
                             <li><a href="<?php echo esc_url("https://www.youtube.com/watch?v=Y9ZRMFwb6QM"); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_3.jpg" alt="Youtube動画サムネイル" type="image/png"></a></li>

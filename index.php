@@ -62,7 +62,7 @@ Template Name: top
                 <div class="achievements">
                     <h3>参考動画</h3>
 
-                    <ul class="slider" id="js-slider-sp">
+                    <ul class="slider" id="js-slider-top">
                         <li><a href="<?php echo esc_url("https://www.youtube.com/watch?v=5H5CJ2WwxBk"); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_1.jpg" alt="Youtubeのサムネイル" type="image/png"></a></li>
                         <li><a href="<?php echo esc_url("https://www.youtube.com/watch?v=8LHyJJKTuWc"); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_2.jpg" alt="Youtubeのサムネイル" type="image/png"></a></li>
                         <li><a href="<?php echo esc_url("https://www.youtube.com/watch?v=Y9ZRMFwb6QM"); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_3.jpg" alt="Youtubeのサムネイル" type="image/png"></a></li>

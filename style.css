@@ -296,6 +296,14 @@ header {
 }
 
 
+#works{
+  margin-top: 100px;
+
+  .contents{
+    margin-top: 50px;
+  }
+}
+
 #About-us {
   margin-top: 100px;
   width: 100%;
@@ -303,6 +311,9 @@ header {
 
 .section-name {
 
+  .title-text{
+    line-height: 1.9;
+  }
   p:nth-child(2) {
     line-height: 0.2;
 
@@ -489,7 +500,6 @@ header {
 
 
     .title-text {
-
       @media(max-width: 1024px) {
         text-align: center;
       }
