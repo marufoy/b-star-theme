@@ -56,16 +56,28 @@ Template Name: top
                 <div class="title-decoration">
                     <span></span>
                 </div>
-            </div>  
+            </div>
 
             <div class="contents">
                 <div class="achievements">
-                    <h3>参考動画</h3>
 
                     <ul class="slider" id="js-slider-top">
-                        <li><a href="<?php echo esc_url("https://www.youtube.com/watch?v=5H5CJ2WwxBk"); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_1.jpg" alt="Youtubeのサムネイル" type="image/png"></a></li>
-                        <li><a href="<?php echo esc_url("https://www.youtube.com/watch?v=8LHyJJKTuWc"); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_2.jpg" alt="Youtubeのサムネイル" type="image/png"></a></li>
-                        <li><a href="<?php echo esc_url("https://www.youtube.com/watch?v=Y9ZRMFwb6QM"); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/thumbnail_3.jpg" alt="Youtubeのサムネイル" type="image/png"></a></li>
+                        <li>
+                            <video class="slick-video" autoplay loop muted playsinline>
+                                <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/video_1.mp4" type="video/mp4">
+                                お使いのブラウザは video タグをサポートしていません。
+                            </video>
+                        </li>
+                        <li>
+                            <video class="slick-video"  autoplay loop muted playsinline>
+                                <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/video_2.mp4" type="video/mp4">
+                            </video>
+                        </li>
+                        <li>
+                            <video class="slick-video"  autoplay loop muted playsinline>
+                                <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/video_3.mp4" type="video/mp4">
+                            </video>
+                        </li>
                     </ul>
                     <div class="dots"></div>
 
