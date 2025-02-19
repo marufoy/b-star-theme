@@ -874,7 +874,7 @@ header {
   position: relative;
   overflow: hidden;
   filter: brightness(50%); /* 明るさを50%にして暗くする */
-  transition: filter 0.3s ease-in-out; /* なめらかに変化 */
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out; /* なめらかに変化 */
   transform: scale(0.9);
 
   @media (max-width:1024px) {
@@ -887,7 +887,7 @@ header {
 .slick-center {
   filter: brightness(100%)!important; /* 通常の明るさにする */
   transform: scale(1.1)!important;
-  transition: filter 0.3s ease-in-out; /* なめらかに変化 */
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out; /* なめらかに変化 */
 }
 
 .slider .slick-slide img {
