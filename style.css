@@ -305,12 +305,16 @@ header {
 }
 
 #About-us {
-  background-image: url("./assets/images/About-us-bg.png");
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), /* 黒いマスクを重ねる */
+  url("./assets/images/About-us-bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   margin-top: 100px;
   width: 100%;
+  padding-bottom: 80px;
+  padding-top: 40px;
 }
 
 .section-name {
