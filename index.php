@@ -12,7 +12,7 @@ Template Name: top
     <section id="Top">
         <div class="video-background">
             <video autoplay muted loop playsinline>
-                <source src="<?php echo get_template_directory_uri(); ?>/assets/images/top-video.mp4" type="video/mp4">
+                <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/video-bg.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div class="overlay-text">
