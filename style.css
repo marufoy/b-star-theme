@@ -305,6 +305,10 @@ header {
 }
 
 #About-us {
+  background-image: url("./assets/images/About-us-bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   margin-top: 100px;
   width: 100%;
 }

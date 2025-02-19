@@ -23,9 +23,8 @@ Template Name: top
         </div>
     </section>
 
-    <div class="container">
-
-        <section id="Context">
+    <section id="Context">
+        <div class="container">
             <h2 id="vision-statement">最高にカッコいい大人たちの集団へ</h2>
 
             <div class="text" id="top-text">
@@ -45,9 +44,12 @@ Template Name: top
                     前進し続ける北極星のような会社を目指す。
                 </p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="works">
+
+    <section id="works">
+        <div class="container">
             <div class="section-name">
                 <div class="title-text">
                     <p class="en-title">WORKS</p>
@@ -57,7 +59,6 @@ Template Name: top
                     <span></span>
                 </div>
             </div>
-
             <div class="contents">
                 <div class="achievements">
 
@@ -69,12 +70,12 @@ Template Name: top
                             </video>
                         </li>
                         <li>
-                            <video class="slick-video"  autoplay loop muted playsinline>
+                            <video class="slick-video" autoplay loop muted playsinline>
                                 <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/video_2.mp4" type="video/mp4">
                             </video>
                         </li>
                         <li>
-                            <video class="slick-video"  autoplay loop muted playsinline>
+                            <video class="slick-video" autoplay loop muted playsinline>
                                 <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/video_3.mp4" type="video/mp4">
                             </video>
                         </li>
@@ -83,9 +84,11 @@ Template Name: top
 
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="About-us">
+    <section id="About-us">
+        <div class="container">
             <div class="section-name">
                 <div class="title-text">
                     <p class="en-title">ABOUT US</p>
@@ -166,9 +169,11 @@ Template Name: top
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="cycle">
+    <section id="cycle">
+        <div class="container">
             <div class="text-content">
                 <div class="title-text">
                     <h3>私たちが目指す</h3>
@@ -254,11 +259,8 @@ Template Name: top
                     </div>
                 </div>
             </div>
-        </section>
-
-
-
-    </div>
+        </div>
+    </section>
 
 </main>
 
