@@ -12,7 +12,7 @@ Template Name: top
     <section id="Top">
         <div class="video-background">
             <video autoplay muted loop playsinline>
-                <source src="<?php echo get_template_directory_uri(); ?>/assets/images/top-video.mp4" type="video/mp4">
+                <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/video-bg.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div class="overlay-text">
@@ -23,9 +23,8 @@ Template Name: top
         </div>
     </section>
 
-    <div class="container">
-
-        <section id="Context">
+    <section id="Context">
+        <div class="container">
             <h2 id="vision-statement">最高にカッコいい大人たちの集団へ</h2>
 
             <div class="text" id="top-text">
@@ -45,9 +44,51 @@ Template Name: top
                     前進し続ける北極星のような会社を目指す。
                 </p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="About-us">
+
+    <section id="works">
+        <div class="container">
+            <div class="section-name">
+                <div class="title-text">
+                    <p class="en-title">WORKS</p>
+                    <p class="jp-title">実績紹介</p>
+                </div>
+                <div class="title-decoration">
+                    <span></span>
+                </div>
+            </div>
+            <div class="contents">
+                <div class="achievements">
+
+                    <ul class="slider" id="js-slider-top">
+                        <li>
+                            <video class="slick-video" autoplay loop muted playsinline>
+                                <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/video_1.mp4" type="video/mp4">
+                                お使いのブラウザは video タグをサポートしていません。
+                            </video>
+                        </li>
+                        <li>
+                            <video class="slick-video" autoplay loop muted playsinline>
+                                <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/video_2.mp4" type="video/mp4">
+                            </video>
+                        </li>
+                        <li>
+                            <video class="slick-video" autoplay loop muted playsinline>
+                                <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/video_3.mp4" type="video/mp4">
+                            </video>
+                        </li>
+                    </ul>
+                    <div class="dots"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="About-us">
+        <div class="container">
             <div class="section-name">
                 <div class="title-text">
                     <p class="en-title">ABOUT US</p>
@@ -63,74 +104,44 @@ Template Name: top
 
                     <div class="text-content">
                         <div class="text-title">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg">
                             <h3>MISSION</h3>
                         </div>
                         <div class="text">
                             <h4>会社の「創造する未来」を共に築き
                                 ステークホルダーの生活を豊かに活気溢れるものに
                             </h4>
-                            <p>私たちは「挑戦と創造」を絶え間なく続け事業を生み成長させ、それぞれが思い描く「創造する未来」を実現させるパートナーとして貢献し、
-                                人々の生活を豊かに活気あふれる世界を目指します。
-                            </p>
                         </div>
-                    </div>
-
-                    <div class="image-content">
-                        <picture>
-                            <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" type="image/png">
-                            <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" type="image/png">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="ミッションの" type="image/png">
-                        </picture>
                     </div>
                 </div>
                 <div class="content" id="vision">
 
                     <div class="text-content">
                         <div class="text-title">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg">
                             <h3>VISION</h3>
                         </div>
                         <div class="text">
                             <h4>会社の発展に貢献し信頼される、成長し続ける企業</h4>
-                            <p>
-                                デジタルソリューションを通して
-                                お客様の抱える課題を解決し、発展に貢献する。
-                                B-starは成長し続け信頼される組織への発展を目指します。
-                            </p>
                         </div>
                     </div>
                     <div class="image-content">
-                        <picture>
-                            <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" type="image/png">
-                            <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" type="image/png">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" alt="ビジョンのイメージ画像" type="image/png">
-                        </picture>
                     </div>
                 </div>
                 <div class="content" id="value">
                     <div class="text-content">
                         <div class="text-title">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg">
                             <h3>VALUE</h3>
                         </div>
                         <div class="text">
-                            <h4>3つの柱で社会に価値を創造し、幸せを形作る</h4>
-                            <p>「高い志を持ち切り拓く」<br>「どんな時でも楽しむ」<br>「真摯に誠実に社会貢献する」<br>この3つ指針を常に持ち、誇りを持って活動を行っていきます。</p>
+                            <h4>社会に価値を創造し続け、社会の発展に貢献する</h4>
                         </div>
-                    </div>
-                    <div class="image-content">
-                        <picture>
-                            <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" type="image/png">
-                            <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" type="image/png">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" alt="バリューのイメージ画像" type="image/png">
-                        </picture>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="cycle">
+    <section id="cycle">
+        <div class="container">
             <div class="text-content">
                 <div class="title-text">
                     <h3>私たちが目指す</h3>
@@ -216,11 +227,8 @@ Template Name: top
                     </div>
                 </div>
             </div>
-        </section>
-
-
-
-    </div>
+        </div>
+    </section>
 
 </main>
 
