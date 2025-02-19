@@ -104,68 +104,36 @@ Template Name: top
 
                     <div class="text-content">
                         <div class="text-title">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg">
                             <h3>MISSION</h3>
                         </div>
                         <div class="text">
                             <h4>会社の「創造する未来」を共に築き
                                 ステークホルダーの生活を豊かに活気溢れるものに
                             </h4>
-                            <p>私たちは「挑戦と創造」を絶え間なく続け事業を生み成長させ、それぞれが思い描く「創造する未来」を実現させるパートナーとして貢献し、
-                                人々の生活を豊かに活気あふれる世界を目指します。
-                            </p>
                         </div>
-                    </div>
-
-                    <div class="image-content">
-                        <picture>
-                            <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" type="image/png">
-                            <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" type="image/png">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mission.png" alt="ミッションの" type="image/png">
-                        </picture>
                     </div>
                 </div>
                 <div class="content" id="vision">
 
                     <div class="text-content">
                         <div class="text-title">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg">
                             <h3>VISION</h3>
                         </div>
                         <div class="text">
                             <h4>会社の発展に貢献し信頼される、成長し続ける企業</h4>
-                            <p>
-                                デジタルソリューションを通して
-                                お客様の抱える課題を解決し、発展に貢献する。
-                                B-starは成長し続け信頼される組織への発展を目指します。
-                            </p>
                         </div>
                     </div>
                     <div class="image-content">
-                        <picture>
-                            <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" type="image/png">
-                            <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" type="image/png">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vision.png" alt="ビジョンのイメージ画像" type="image/png">
-                        </picture>
                     </div>
                 </div>
                 <div class="content" id="value">
                     <div class="text-content">
                         <div class="text-title">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellowbubble.svg">
                             <h3>VALUE</h3>
                         </div>
                         <div class="text">
-                            <h4>3つの柱で社会に価値を創造し、幸せを形作る</h4>
-                            <p>「高い志を持ち切り拓く」<br>「どんな時でも楽しむ」<br>「真摯に誠実に社会貢献する」<br>この3つ指針を常に持ち、誇りを持って活動を行っていきます。</p>
+                            <h4>社会に価値を創造し続け、社会の発展に貢献する</h4>
                         </div>
-                    </div>
-                    <div class="image-content">
-                        <picture>
-                            <source media="(min-width: 1025px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" type="image/png">
-                            <source media="(max-width: 1024px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" type="image/png">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/value.png" alt="バリューのイメージ画像" type="image/png">
-                        </picture>
                     </div>
                 </div>
             </div>

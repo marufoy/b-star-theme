@@ -383,8 +383,6 @@ header {
   }
 
   .content:nth-child(2) {
-    flex-direction: row-reverse;
-
     @media (max-width: 1024px) {
       flex-direction: column;
     }
@@ -394,7 +392,6 @@ header {
 
   .text-content {
     padding-left: 70px;
-    flex: 1 1 50%;
 
     @media (max-width: 1024px) {
       padding: 0;
@@ -408,10 +405,10 @@ header {
 
       h3 {
         font-family: var(--title-font);
-        position: absolute;
         display: block;
+        border-bottom: 1px solid #fff;
         width: 100%;
-        text-align: center;
+        text-align: start;
         font-size: 3.5rem;
 
         @media (max-width: 1024px) {
@@ -427,8 +424,7 @@ header {
       h4 {
         font-family: var(--section-font);
         font-weight: 400;
-        /* font-size: 2.2rem; */
-        font-size: clamp(1.5rem, 8vw + 1rem, 2.4rem);
+        font-size: 1.5rem;
 
         @media (max-width: 1024px) {
           font-size: 1.4rem;

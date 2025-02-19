@@ -78,21 +78,21 @@ ScrollReveal().reveal('#top-text', {
 
 ScrollReveal().reveal('#mission', {
     duration: 2000,
-    origin: "left",
+    origin: "bottom",
     distance: "50px",
     mobile: false,
 });
 
 ScrollReveal().reveal('#vision', {
     duration: 2000,
-    origin: "right",
+    origin: "bottom",
     distance: "50px",
     mobile: false,
 });
 
 ScrollReveal().reveal('#value', {
     duration: 2000,
-    origin: "left",
+    origin: "bottom",
     distance: "50px",
     mobile: false,
 });
