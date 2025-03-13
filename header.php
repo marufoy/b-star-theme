@@ -49,7 +49,7 @@
                     <li>SERVICE</li>
                 </a>
                 <a href="<?php echo esc_url(home_url('/contact')); ?>">
-                    <li>CONACT</li>
+                    <li>CONTACT</li>
                 </a>
             </ul>
         </nav>
